@@ -1,0 +1,51 @@
+{
+  "description": "LLaVA validation reference for test images",
+  "test_images": [
+    {
+      "image_name": "sanbernardino_023710134.png",
+      "description": "High-density trailer yard with 40+ semi-trailers in organized rows",
+      "context": "Logistics facility with trailer storage and parking",
+      "llava_validated_trucks": "Multiple semi-trailers confirmed by LLaVA",
+      "detection_challenges": "Trailers without tractor cabs, low confidence scores",
+      "expected_detections": "40-80 depending on threshold and vocabulary"
+    },
+    {
+      "image_name": "losangeles_7001014033.png", 
+      "description": "Warehouse distribution center with perimeter truck parking",
+      "context": "Industrial facility with loading docks and truck staging",
+      "llava_validated_trucks": "Semi-trucks around building perimeter",
+      "detection_challenges": "Mixed complete trucks and trailers",
+      "expected_detections": "5-15 trucks and trailers"
+    },
+    {
+      "image_name": "sanbernardino_023607132.png",
+      "description": "Original trailer yard test case",
+      "context": "Trucking yard with organized trailer rows",
+      "llava_validated_trucks": "Multiple trailers in systematic arrangement",
+      "detection_challenges": "Trailer identification in aerial view",
+      "expected_detections": "15-25 trailers and trucks"
+    },
+    {
+      "image_name": "losangeles_8009013078.png",
+      "description": "Warehouse with loading docks and truck parking areas",
+      "context": "Distribution center with active truck operations",
+      "llava_validated_trucks": "Semi-trucks near loading infrastructure",
+      "detection_challenges": "Trucks in operational context vs parked trailers",
+      "expected_detections": "10-20 trucks near loading areas"
+    }
+  ],
+  "validation_notes": {
+    "llava_processing_source": "/home/wil/desktop/map_cv/apple/step2_validation/",
+    "original_owlv2_source": "/home/wil/desktop/map_cv/apple/owlv2/",
+    "confidence_insights": "LLaVA validates trucks at OWLv2 confidence 0.05-0.3 range",
+    "vocabulary_insights": "Trailer-specific terms significantly improve recall",
+    "context_patterns": "Industrial facilities benefit from contextual vocabulary"
+  },
+  "test_parameters": {
+    "recommended_confidence_min": 0.05,
+    "recommended_confidence_max": 0.3,
+    "trailer_vocabulary": ["trailer", "semi-trailer", "cargo trailer", "trailer parking"],
+    "truck_vocabulary": ["truck", "semi-truck", "tractor-trailer", "commercial vehicle"],
+    "negative_filtering": ["building", "car", "house", "pickup truck", "van"]
+  }
+}
