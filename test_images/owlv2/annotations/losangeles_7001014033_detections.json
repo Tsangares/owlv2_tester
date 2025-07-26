@@ -1,210 +1,1640 @@
 [
   {
-    "detection_id": "9cf85334-5bf3-4290-98a8-fc72f97cb449",
+    "detection_id": "a68a6a98-3c3e-479b-9eff-3c45342e5b7b",
     "bbox_absolute": [
       350.490478515625,
       398.4681396484375,
       435.0658264160156,
       433.85003662109375
     ],
-    "confidence": 0.16438888013362885,
+    "confidence": 0.16438882052898407,
     "query": "semi\u2011trailer parking stalls",
     "class_id": 48,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 1.315072174370289,
+    "consensus_count": 4,
     "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
   },
   {
-    "detection_id": "267fda75-38e5-4d14-99da-64c1186ec35a",
+    "detection_id": "590ba379-2048-4c00-99fb-97f39489bb9b",
     "bbox_absolute": [
-      401.02069091796875,
-      863.3101196289062,
-      620.4594116210938,
-      926.0608825683594
+      1174.1499633789062,
+      -1.1944169998168945,
+      1484.9654541015625,
+      82.41482543945312
     ],
-    "confidence": 0.1533287912607193,
-    "query": "grid of trailers top view",
-    "class_id": 36,
+    "confidence": 0.1288938671350479,
+    "query": "truck trailer parking lot view",
+    "class_id": 15,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 1.2902257069945335,
+    "consensus_count": 4,
     "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
   },
   {
-    "detection_id": "6560face-dfdf-4a9b-bb95-4be8b6a8e00c",
+    "detection_id": "15772262-484f-4efc-b3aa-64bb1d0be559",
     "bbox_absolute": [
-      703.7697143554688,
-      131.1205291748047,
-      782.3696594238281,
-      211.07208251953125
+      874.927490234375,
+      125.30973815917969,
+      923.558837890625,
+      187.33218383789062
     ],
-    "confidence": 0.14017830789089203,
+    "confidence": 0.11458275467157364,
     "query": "semi\u2011trailer parking stalls",
     "class_id": 48,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 1.2802079282701015,
+    "consensus_count": 4,
     "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
   },
   {
-    "detection_id": "7af7789d-8b8b-4150-8877-6a82d55564f6",
+    "detection_id": "8c8bf2fa-fd6a-4fbf-889e-28432940c205",
     "bbox_absolute": [
-      697.2131958007812,
-      6.212671279907227,
-      783.2127075195312,
-      145.02835083007812
+      1154.6529235839844,
+      0.5300521850585938,
+      1382.0625915527344,
+      215.72193908691406
     ],
-    "confidence": 0.1353665590286255,
+    "confidence": 0.08177980035543442,
+    "query": "truck trailer parking lot view",
+    "class_id": 15,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 1.2572458602488041,
+    "consensus_count": 4,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "104b27a4-38e2-45b3-884a-28d84e12253c",
+    "bbox_absolute": [
+      1333.0724792480469,
+      43.35417556762695,
+      1399.7682800292969,
+      70.98017883300781
+    ],
+    "confidence": 0.14057621359825134,
+    "query": "cargo trailer from above",
+    "class_id": 5,
+    "ensemble_source": "high_quality",
+    "pass_id": 3,
+    "quality_score": 1.098403349518776,
+    "consensus_count": 3,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "74b42963-a448-4d91-b51f-46792bf34709",
+    "bbox_absolute": [
+      1022.3531265258789,
+      401.25123596191406,
+      1242.6385498046875,
+      444.7630157470703
+    ],
+    "confidence": 0.14034868776798248,
+    "query": "semi trailer top view",
+    "class_id": 1,
+    "ensemble_source": "high_quality",
+    "pass_id": 3,
+    "quality_score": 1.0982440814375878,
+    "consensus_count": 3,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "26e4eb60-57b7-458c-b627-1e4c982385ac",
+    "bbox_absolute": [
+      1169.7462615966797,
+      142.83956909179688,
+      1435.6309814453125,
+      298.65704345703125
+    ],
+    "confidence": 0.13773418962955475,
+    "query": "container yard aerial view",
+    "class_id": 3,
+    "ensemble_source": "high_quality",
+    "pass_id": 3,
+    "quality_score": 1.0964139327406883,
+    "consensus_count": 3,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "c0649915-7cbd-45be-adec-c4851bd04bd5",
+    "bbox_absolute": [
+      1196.2958755493164,
+      1334.9020080566406,
+      1395.2614135742188,
+      1476.8691101074219
+    ],
+    "confidence": 0.10738971084356308,
+    "query": "container yard aerial view",
+    "class_id": 3,
+    "ensemble_source": "high_quality",
+    "pass_id": 3,
+    "quality_score": 1.0751727975904941,
+    "consensus_count": 3,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "19ffa306-c934-474c-baa6-98be5b0981c4",
+    "bbox_absolute": [
+      634.2926406860352,
+      6.476959228515625,
+      779.1265869140625,
+      157.46527099609375
+    ],
+    "confidence": 0.21141181886196136,
     "query": "trailer queue warehouse",
     "class_id": 42,
+    "ensemble_source": "conservative",
+    "pass_id": 2,
+    "quality_score": 1.047988273203373,
+    "consensus_count": 3,
     "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
   },
   {
-    "detection_id": "673263d0-6dd9-447b-9f08-608ff053272a",
+    "detection_id": "9a6e17d6-087c-46b9-ac9f-25f5d58da0a7",
     "bbox_absolute": [
-      507.99385833740234,
-      397.61016845703125,
-      1249.033447265625,
-      432.56427001953125
+      404.1440734863281,
+      864.0857238769531,
+      618.474365234375,
+      926.4412536621094
     ],
-    "confidence": 0.13508488237857819,
+    "confidence": 0.1977291703224182,
+    "query": "grid of trailers top view",
+    "class_id": 36,
+    "ensemble_source": "conservative",
+    "pass_id": 2,
+    "quality_score": 1.0384104192256927,
+    "consensus_count": 3,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "c4ee6a65-e757-405b-9d0d-effc457ff0a7",
+    "bbox_absolute": [
+      1389.4827270507812,
+      1404.3719482421875,
+      1491.09716796875,
+      1531.4986572265625
+    ],
+    "confidence": 0.18900513648986816,
+    "query": "semi trailer alignment aerial",
+    "class_id": 55,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 1.0323035955429076,
+    "consensus_count": 3,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "5f7ec9dc-88a7-4b9a-838b-78fbc2d075fb",
+    "bbox_absolute": [
+      1250.7372360229492,
+      412.0719451904297,
+      1385.8273620605469,
+      461.8283386230469
+    ],
+    "confidence": 0.18277065455913544,
     "query": "parking strip trailer top view",
     "class_id": 25,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 1.0279394581913948,
+    "consensus_count": 3,
     "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
   },
   {
-    "detection_id": "b8eece46-7f59-4c40-a8b8-3ba34c02d253",
+    "detection_id": "957970c1-96b0-484a-82ec-eb32e847358a",
     "bbox_absolute": [
-      875.1228332519531,
-      127.85478210449219,
-      921.2211303710938,
-      187.5463104248047
+      1064.767105102539,
+      352.28216552734375,
+      1094.9845123291016,
+      400.8675537109375
     ],
-    "confidence": 0.12467307597398758,
+    "confidence": 0.1715737283229828,
     "query": "semi\u2011trailer parking stalls",
     "class_id": 48,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 1.0201016098260878,
+    "consensus_count": 3,
     "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
   },
   {
-    "detection_id": "86b4f0c4-923e-478c-82dd-62b506ab7e66",
+    "detection_id": "790e1da0-4f11-4595-8523-7d1cf4d09218",
     "bbox_absolute": [
-      247.92837524414062,
-      288.987060546875,
-      768.7966918945312,
-      432.4399108886719
+      1004.9997406005859,
+      336.5666198730469,
+      1143.7359619140625,
+      400.5038757324219
     ],
-    "confidence": 0.12300493568181992,
-    "query": "parking strip trailer top view",
-    "class_id": 25,
+    "confidence": 0.16939441859722137,
+    "query": "truck trailer parking lot view",
+    "class_id": 15,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 1.018576093018055,
+    "consensus_count": 3,
     "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
   },
   {
-    "detection_id": "a8ce7f49-f283-44b0-9369-231bc951e680",
+    "detection_id": "b449933b-9118-409f-9686-5c011531b9fc",
     "bbox_absolute": [
-      920.4337768554688,
-      82.74292755126953,
-      954.4457092285156,
-      109.83199310302734
+      1460.2745361328125,
+      1417.7182006835938,
+      1493.958740234375,
+      1505.4617919921875
     ],
-    "confidence": 0.12256810069084167,
-    "query": "roof of cargo trailer",
-    "class_id": 44,
+    "confidence": 0.16659270226955414,
+    "query": "dry van trailer satellite view",
+    "class_id": 9,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 1.016614891588688,
+    "consensus_count": 3,
     "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
   },
   {
-    "detection_id": "566005ed-a390-41bd-b5db-14db314c9dbe",
+    "detection_id": "286be63b-e2cc-493c-bc53-31a2820cb4c1",
     "bbox_absolute": [
-      739.9290771484375,
-      130.20823669433594,
-      768.077392578125,
-      212.17312622070312
+      1074.5965576171875,
+      5.652088165283203,
+      1140.4981384277344,
+      207.56167602539062
     ],
-    "confidence": 0.12243523448705673,
-    "query": "semi\u2011trailer parking stalls",
-    "class_id": 48,
+    "confidence": 0.16141845285892487,
+    "query": "truck trailer parking lot view",
+    "class_id": 15,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 1.0129929170012473,
+    "consensus_count": 3,
     "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
   },
   {
-    "detection_id": "72c46bfe-764d-48e8-bf07-a9d86899829b",
+    "detection_id": "64554690-4df3-4aea-b061-c2d52a5fbbda",
     "bbox_absolute": [
-      437.3852233886719,
-      982.035400390625,
-      624.5352172851562,
-      1050.2618408203125
+      1256.5596313476562,
+      542.1243896484375,
+      1466.2937622070312,
+      566.5869140625
     ],
-    "confidence": 0.11903230100870132,
-    "query": "semi\u2011trailer parking stalls",
-    "class_id": 48,
+    "confidence": 0.1537143886089325,
+    "query": "grey trailer roof aerial",
+    "class_id": 27,
+    "ensemble_source": "conservative",
+    "pass_id": 2,
+    "quality_score": 1.0076000720262526,
+    "consensus_count": 3,
     "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
   },
   {
-    "detection_id": "1a1b32e9-a6ba-4943-bd72-6e94a9642870",
+    "detection_id": "9e31fcea-e0d8-4165-98a9-f8582665b574",
     "bbox_absolute": [
-      330.48419189453125,
-      951.36181640625,
-      628.2230834960938,
-      1049.824951171875
+      1253.6357421875,
+      460.01416015625,
+      1380.5509033203125,
+      494.447509765625
     ],
-    "confidence": 0.1138349398970604,
-    "query": "semi\u2011trailer parking stalls",
-    "class_id": 48,
-    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
-  },
-  {
-    "detection_id": "8c26bea7-c820-45df-a9a9-339dbbaaffb6",
-    "bbox_absolute": [
-      996.129638671875,
-      21.679176330566406,
-      1025.5715942382812,
-      43.86760330200195
-    ],
-    "confidence": 0.11372345685958862,
+    "confidence": 0.1504126340150833,
     "query": "white box trailer roof",
     "class_id": 8,
+    "ensemble_source": "conservative",
+    "pass_id": 2,
+    "quality_score": 1.0052888438105583,
+    "consensus_count": 3,
     "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
   },
   {
-    "detection_id": "dec36395-9222-403e-a0ec-715bfd30e109",
+    "detection_id": "f78b4a07-8cb3-44c6-a42a-08e6b0413018",
     "bbox_absolute": [
-      741.93408203125,
-      7.385061264038086,
-      767.00341796875,
-      126.89298248291016
+      1397.3360137939453,
+      805.0834350585938,
+      1470.7916259765625,
+      1001.8293762207031
     ],
-    "confidence": 0.11019345372915268,
+    "confidence": 0.1490081548690796,
     "query": "semi\u2011trailer parking stalls",
     "class_id": 48,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 1.0043057084083555,
+    "consensus_count": 3,
     "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
   },
   {
-    "detection_id": "582b1ce6-0c83-4afc-ad2b-5dd4cd2daecb",
+    "detection_id": "315fd8fe-8ca7-4638-9255-e0d6b6b754d7",
     "bbox_absolute": [
-      519.0326461791992,
-      264.74493408203125,
-      1277.68359375,
-      403.679443359375
+      1325.6195678710938,
+      141.2624053955078,
+      1365.4732666015625,
+      206.30242919921875
     ],
-    "confidence": 0.10771003365516663,
-    "query": "parking strip trailer top view",
-    "class_id": 25,
+    "confidence": 0.14572453498840332,
+    "query": "semi\u2011trailer parking stalls",
+    "class_id": 48,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 1.0020071744918821,
+    "consensus_count": 3,
     "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
   },
   {
-    "detection_id": "58bc2107-9b56-4ff9-a92e-826290779c44",
+    "detection_id": "51c3c0b9-7957-42ef-b22e-8fc8a6f3e8b7",
     "bbox_absolute": [
-      594.2652206420898,
-      5.95836067199707,
-      702.871826171875,
-      143.18893432617188
+      1215.0103454589844,
+      142.54672241210938,
+      1311.806396484375,
+      158.7241668701172
     ],
-    "confidence": 0.10394943505525589,
+    "confidence": 0.14565114676952362,
+    "query": "grey trailer roof aerial",
+    "class_id": 27,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 1.0019558027386664,
+    "consensus_count": 3,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "ce646b2d-b028-4dbb-84a1-c171546eb76d",
+    "bbox_absolute": [
+      440.3080749511719,
+      988.4239807128906,
+      625.7278442382812,
+      1052.4879150390625
+    ],
+    "confidence": 0.1419566571712494,
+    "query": "semi\u2011trailer parking stalls",
+    "class_id": 48,
+    "ensemble_source": "conservative",
+    "pass_id": 2,
+    "quality_score": 0.9993696600198745,
+    "consensus_count": 3,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "374ef5a3-8c93-4b56-b383-ea0627029f2b",
+    "bbox_absolute": [
+      1029.3851165771484,
+      338.70867919921875,
+      1068.7330017089844,
+      399.9048156738281
+    ],
+    "confidence": 0.13193106651306152,
+    "query": "semi\u2011trailer parking stalls",
+    "class_id": 48,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.9923517465591429,
+    "consensus_count": 3,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "2227b453-556f-4f79-828c-9d729d11e323",
+    "bbox_absolute": [
+      1248.9900512695312,
+      619.9810638427734,
+      1357.5620727539062,
+      648.2763671875
+    ],
+    "confidence": 0.13117025792598724,
+    "query": "grey trailer roof aerial",
+    "class_id": 27,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.991819180548191,
+    "consensus_count": 3,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "4e9a0e1c-baec-4806-bdf3-5e2beb50fe87",
+    "bbox_absolute": [
+      816.9067153930664,
+      348.64588928222656,
+      850.5920104980469,
+      399.6665802001953
+    ],
+    "confidence": 0.11005576699972153,
+    "query": "semi\u2011trailer parking stalls",
+    "class_id": 48,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.977039036899805,
+    "consensus_count": 3,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "862a024c-7b19-4561-bc33-a6af77c254c8",
+    "bbox_absolute": [
+      879.4662933349609,
+      347.7593231201172,
+      916.0016632080078,
+      401.9048767089844
+    ],
+    "confidence": 0.10671595484018326,
+    "query": "semi\u2011trailer parking stalls",
+    "class_id": 48,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.9747011683881281,
+    "consensus_count": 3,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "1e6815c0-caea-4061-9ccf-1e4899e911b2",
+    "bbox_absolute": [
+      994.2110595703125,
+      41.59956359863281,
+      1027.385238647461,
+      120.65261840820312
+    ],
+    "confidence": 0.10064937174320221,
+    "query": "semi\u2011trailer parking stalls",
+    "class_id": 48,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.9704545602202415,
+    "consensus_count": 3,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "c199d999-b383-42f2-9dd7-4e8506a76f78",
+    "bbox_absolute": [
+      1183.805202126503,
+      422.18763732910156,
+      1256.3257904052734,
+      572.0802917480469
+    ],
+    "confidence": 0.08183708786964417,
+    "query": "semi\u2011trailer parking stalls",
+    "class_id": 48,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.9572859615087508,
+    "consensus_count": 3,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "fb5d5e3a-3952-4e2c-959b-a95ec920080e",
+    "bbox_absolute": [
+      817.095817565918,
+      20.361543655395508,
+      848.3058242797852,
+      62.21526336669922
+    ],
+    "confidence": 0.08052933216094971,
+    "query": "semi\u2011trailer parking stalls",
+    "class_id": 48,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.9563705325126647,
+    "consensus_count": 3,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "878ef4cc-1eec-49b2-b3e0-5dbcf1e93217",
+    "bbox_absolute": [
+      982.72003698349,
+      1288.6535034179688,
+      1149.9339599609375,
+      1397.8797302246094
+    ],
+    "confidence": 0.111702099442482,
+    "query": "container yard aerial view",
+    "class_id": 3,
+    "ensemble_source": "high_quality",
+    "pass_id": 3,
+    "quality_score": 0.7781914696097373,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "faa7d485-e693-401e-986a-983e5b7e99f9",
+    "bbox_absolute": [
+      1082.0574951171875,
+      1266.2211608886719,
+      1282.85498046875,
+      1490.1689453125
+    ],
+    "confidence": 0.0823482871055603,
+    "query": "container yard aerial view",
+    "class_id": 3,
+    "ensemble_source": "high_quality",
+    "pass_id": 3,
+    "quality_score": 0.7576438009738922,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "60e13ad0-01a1-4f14-88e2-44e0460bf9da",
+    "bbox_absolute": [
+      1457.2000122070312,
+      1204.0676355361938,
+      1576.7139587402344,
+      1597.9385986328125
+    ],
+    "confidence": 0.0675017461180687,
+    "query": "container yard aerial view",
+    "class_id": 3,
+    "ensemble_source": "high_quality",
+    "pass_id": 3,
+    "quality_score": 0.7472512222826481,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "dfea188c-8517-4cd6-8fb3-07d30893c863",
+    "bbox_absolute": [
+      288.7829284667969,
+      339.77586364746094,
+      509.6175231933594,
+      413.2466583251953
+    ],
+    "confidence": 0.06447774171829224,
+    "query": "semi trailer top view",
+    "class_id": 1,
+    "ensemble_source": "high_quality",
+    "pass_id": 3,
+    "quality_score": 0.7451344192028045,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "d9b8d1a5-18bb-46e0-8bfe-239304ccd8ca",
+    "bbox_absolute": [
+      1021.7691345214844,
+      1256.2254943847656,
+      1475.4125671386719,
+      1349.7793884277344
+    ],
+    "confidence": 0.059965066611766815,
+    "query": "container yard aerial view",
+    "class_id": 3,
+    "ensemble_source": "high_quality",
+    "pass_id": 3,
+    "quality_score": 0.7419755466282367,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "d33c2fb2-b080-4267-8f62-d62c4b9de6e7",
+    "bbox_absolute": [
+      1182.040937423706,
+      1426.547836303711,
+      1458.9255981445312,
+      1600.5546569824219
+    ],
+    "confidence": 0.05731799826025963,
+    "query": "container yard aerial view",
+    "class_id": 3,
+    "ensemble_source": "high_quality",
+    "pass_id": 3,
+    "quality_score": 0.7401225987821817,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "36a1f0d0-c3e9-447e-9834-ed285f1c9166",
+    "bbox_absolute": [
+      1358.3008422851562,
+      1176.3177680969238,
+      1463.0581665039062,
+      1297.6345825195312
+    ],
+    "confidence": 0.05563516542315483,
+    "query": "container yard aerial view",
+    "class_id": 3,
+    "ensemble_source": "high_quality",
+    "pass_id": 3,
+    "quality_score": 0.7389446157962083,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "589a6aea-46f8-4600-96d6-800fe21049df",
+    "bbox_absolute": [
+      1204.5560913085938,
+      204.0963134765625,
+      1278.9757690429688,
+      263.66064453125
+    ],
+    "confidence": 0.05179097503423691,
+    "query": "container yard aerial view",
+    "class_id": 3,
+    "ensemble_source": "high_quality",
+    "pass_id": 3,
+    "quality_score": 0.7362536825239658,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "89f651d6-13be-4892-9d01-a4220ee9ab85",
+    "bbox_absolute": [
+      637.3797149658203,
+      9.31787109375,
+      677.9509735107422,
+      138.74913024902344
+    ],
+    "confidence": 0.16799978911876678,
     "query": "detached semi trailer",
     "class_id": 2,
+    "ensemble_source": "conservative",
+    "pass_id": 2,
+    "quality_score": 0.7175998523831367,
+    "consensus_count": 2,
     "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
   },
   {
-    "detection_id": "934e4fc4-8cba-4d14-b4e5-bd3e58493886",
+    "detection_id": "9f9227f5-6ea3-450f-b626-7bc4325fc591",
     "bbox_absolute": [
-      637.9621200561523,
-      9.354480743408203,
-      678.3689575195312,
-      140.82362365722656
+      1255.1395263671875,
+      560.1806182861328,
+      1400.0699462890625,
+      594.3230133056641
     ],
-    "confidence": 0.10036338865756989,
+    "confidence": 0.16464924812316895,
+    "query": "white box trailer roof",
+    "class_id": 8,
+    "ensemble_source": "conservative",
+    "pass_id": 2,
+    "quality_score": 0.7152544736862182,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "8e172509-86d4-461a-8f67-553d0ec99568",
+    "bbox_absolute": [
+      940.0942993164062,
+      18.04621696472168,
+      999.3648071289062,
+      202.87554931640625
+    ],
+    "confidence": 0.14524108171463013,
+    "query": "truck trailer parking lot view",
+    "class_id": 15,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.701668757200241,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "2f2fda35-f61f-42c2-bffb-e8d06cfe4e9f",
+    "bbox_absolute": [
+      702.845947265625,
+      131.1646270751953,
+      783.7557373046875,
+      211.73243713378906
+    ],
+    "confidence": 0.13578738272190094,
     "query": "semi\u2011trailer parking stalls",
     "class_id": 48,
+    "ensemble_source": "conservative",
+    "pass_id": 2,
+    "quality_score": 0.6950511679053306,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "eee3b7b5-bc0c-4e16-be26-8e4da7541c10",
+    "bbox_absolute": [
+      785.9996275901794,
+      205.28225708007812,
+      1183.5509948730469,
+      317.6619873046875
+    ],
+    "confidence": 0.1254170686006546,
+    "query": "parking strip trailer top view",
+    "class_id": 25,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.6877919480204582,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "84700537-48db-4164-9163-adae787695ee",
+    "bbox_absolute": [
+      1253.3253784179688,
+      580.4075317382812,
+      1390.6945190429688,
+      636.6422424316406
+    ],
+    "confidence": 0.12461426854133606,
+    "query": "white box trailer roof",
+    "class_id": 8,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.6872299879789352,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "c4606567-9a4a-459c-9b53-73b0fbbbc40d",
+    "bbox_absolute": [
+      1497.9129028320312,
+      446.8363342285156,
+      1553.7510375976562,
+      508.0024719238281
+    ],
+    "confidence": 0.1233610287308693,
+    "query": "parking lane trailer aerial",
+    "class_id": 22,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.6863527201116084,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "ae028d29-f82d-4d0c-8273-9245c82871d4",
+    "bbox_absolute": [
+      1297.9420471191406,
+      142.3413848876953,
+      1326.7976989746094,
+      206.26473999023438
+    ],
+    "confidence": 0.12295520305633545,
+    "query": "semi\u2011trailer parking stalls",
+    "class_id": 48,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.6860686421394347,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "d81137e0-c619-48a4-8a59-18a1cd25aba4",
+    "bbox_absolute": [
+      1253.5437622070312,
+      233.15835571289062,
+      1309.8507690429688,
+      259.1707763671875
+    ],
+    "confidence": 0.12268029898405075,
+    "query": "red shipping container aerial view",
+    "class_id": 60,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.6858762092888355,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "28b234d4-657f-408e-b1cf-b61f34601bce",
+    "bbox_absolute": [
+      1388.6203918457031,
+      399.04016852378845,
+      1537.876708984375,
+      512.0439987182617
+    ],
+    "confidence": 0.12221089750528336,
+    "query": "parking lane trailer aerial",
+    "class_id": 22,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.6855476282536983,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "9dc8a0ee-3538-4d6f-b1bb-93ef9899e0b1",
+    "bbox_absolute": [
+      996.9380493164062,
+      23.094635009765625,
+      1025.4576416015625,
+      43.800697326660156
+    ],
+    "confidence": 0.12029653042554855,
+    "query": "white box trailer roof",
+    "class_id": 8,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.6842075712978839,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "53501560-2121-474a-81ae-ba991bf18077",
+    "bbox_absolute": [
+      1250.9932250976562,
+      473.1732940673828,
+      1387.036376953125,
+      549.987060546875
+    ],
+    "confidence": 0.1196703240275383,
+    "query": "parking strip trailer top view",
+    "class_id": 25,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.6837692268192768,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "c8a33910-fbf0-4a87-90ae-be6f6dcebcc4",
+    "bbox_absolute": [
+      514.1785316467285,
+      13.0670166015625,
+      621.3866424560547,
+      253.55892944335938
+    ],
+    "confidence": 0.11834783107042313,
+    "query": "truck trailer parking lot view",
+    "class_id": 15,
+    "ensemble_source": "conservative",
+    "pass_id": 2,
+    "quality_score": 0.6828434817492961,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "fd20d713-2a4d-4ff0-8ad3-f85e1410d510",
+    "bbox_absolute": [
+      1099.6429748535156,
+      358.3609924316406,
+      1126.4757995605469,
+      374.647216796875
+    ],
+    "confidence": 0.11431965231895447,
+    "query": "white box trailer roof",
+    "class_id": 8,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.6800237566232681,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "d54048f7-5c16-4959-b951-13dc02d19b9e",
+    "bbox_absolute": [
+      1483.0633544921875,
+      60.45356369018555,
+      1538.1934814453125,
+      111.19567108154297
+    ],
+    "confidence": 0.11150544136762619,
+    "query": "parking lane trailer aerial",
+    "class_id": 22,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.6780538089573382,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "b74078d9-18e2-4238-9f35-42574e6dd6f7",
+    "bbox_absolute": [
+      341.41766357421875,
+      386.04345703125,
+      756.6723022460938,
+      439.71692657470703
+    ],
+    "confidence": 0.11054154485464096,
+    "query": "parking strip trailer top view",
+    "class_id": 25,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.6773790813982487,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "d7034ebe-a7dd-4f85-b27d-4f09700a9295",
+    "bbox_absolute": [
+      855.1277618408203,
+      18.090415954589844,
+      893.7123641967773,
+      97.6567611694336
+    ],
+    "confidence": 0.11000746488571167,
+    "query": "roof of cargo trailer",
+    "class_id": 44,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.6770052254199981,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "5311c241-aefe-4edf-aed2-5f1d99380c9d",
+    "bbox_absolute": [
+      1501.1851806640625,
+      876.5704956054688,
+      1543.8653564453125,
+      907.7398071289062
+    ],
+    "confidence": 0.10802321135997772,
+    "query": "parking lane trailer aerial",
+    "class_id": 22,
+    "ensemble_source": "conservative",
+    "pass_id": 2,
+    "quality_score": 0.6756162479519844,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "5b0862dd-c52c-4946-95fc-af3618874cfe",
+    "bbox_absolute": [
+      804.6703720092773,
+      341.1506805419922,
+      964.7474060058594,
+      402.4988098144531
+    ],
+    "confidence": 0.1058259904384613,
+    "query": "truck trailer parking lot view",
+    "class_id": 15,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.6740781933069229,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "aa939b37-e193-408d-9bf5-0b8884f1b034",
+    "bbox_absolute": [
+      354.72015380859375,
+      856.0678100585938,
+      397.82122802734375,
+      878.72265625
+    ],
+    "confidence": 0.1042991429567337,
+    "query": "white box trailer roof",
+    "class_id": 8,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.6730094000697135,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "d495490f-e4ea-4bbf-a150-76a350d17ace",
+    "bbox_absolute": [
+      869.9397583007812,
+      4.085474967956543,
+      988.2892456054688,
+      30.183696746826172
+    ],
+    "confidence": 0.09541279822587967,
+    "query": "grey trailer roof aerial",
+    "class_id": 27,
+    "ensemble_source": "conservative",
+    "pass_id": 2,
+    "quality_score": 0.6667889587581157,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "f5c92c13-a87f-4ff7-a9f5-d42ef233adf9",
+    "bbox_absolute": [
+      785.1198153495789,
+      287.1163101196289,
+      1180.9243774414062,
+      363.8210754394531
+    ],
+    "confidence": 0.09485812485218048,
+    "query": "grey trailer roof aerial",
+    "class_id": 27,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.6664006873965262,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "2516fb6c-51e8-4235-bb9b-1d9468069ccf",
+    "bbox_absolute": [
+      1401.6199340820312,
+      1009.1550903320312,
+      1431.0504760742188,
+      1033.498046875
+    ],
+    "confidence": 0.09093914180994034,
+    "query": "box trailer roof satellite",
+    "class_id": 43,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.6636573992669582,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "64d16d12-90bd-4f10-90f8-7b93a7ce8149",
+    "bbox_absolute": [
+      126.93013763427734,
+      661.4844970703125,
+      185.92446899414062,
+      749.77587890625
+    ],
+    "confidence": 0.09026935696601868,
+    "query": "parking lane trailer aerial",
+    "class_id": 22,
+    "ensemble_source": "conservative",
+    "pass_id": 2,
+    "quality_score": 0.663188549876213,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "a67ab712-74c3-476d-99a7-107b94d28dea",
+    "bbox_absolute": [
+      913.1212310791016,
+      355.1487274169922,
+      938.9155426025391,
+      398.30503845214844
+    ],
+    "confidence": 0.08900479227304459,
+    "query": "semi\u2011trailer parking stalls",
+    "class_id": 48,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.6623033545911312,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "fe3c18bd-1622-47cc-b547-193d7741d191",
+    "bbox_absolute": [
+      983.4022836685181,
+      352.70945739746094,
+      1034.6523475646973,
+      404.57139587402344
+    ],
+    "confidence": 0.08722390234470367,
+    "query": "detached semi trailer",
+    "class_id": 2,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.6610567316412925,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "0956f793-aee7-4873-ba94-ecae482dbf1e",
+    "bbox_absolute": [
+      968.8224334716797,
+      6.835770606994629,
+      1062.1329345703125,
+      213.96536254882812
+    ],
+    "confidence": 0.08710776269435883,
+    "query": "semi\u2011trailer parking stalls",
+    "class_id": 48,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.6609754338860512,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "059376e4-e018-4ba6-9f6f-91d127526077",
+    "bbox_absolute": [
+      1405.9335479736328,
+      559.2323913574219,
+      1469.7693176269531,
+      587.6636352539062
+    ],
+    "confidence": 0.08659527450799942,
+    "query": "parking strip trailer top view",
+    "class_id": 25,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.6606166921555996,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "6342672f-f2ed-49e4-bf13-8027a2a8b8b3",
+    "bbox_absolute": [
+      1400.3419189453125,
+      1010.5744323730469,
+      1433.8480834960938,
+      1083.2396087646484
+    ],
+    "confidence": 0.08655399084091187,
+    "query": "semi\u2011trailer parking stalls",
+    "class_id": 48,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.6605877935886383,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "138f2c84-a566-4ab7-954e-7225df5670bd",
+    "bbox_absolute": [
+      1197.9670124053955,
+      142.64031982421875,
+      1235.3715744018555,
+      162.70181274414062
+    ],
+    "confidence": 0.08621946722269058,
+    "query": "parking strip trailer top view",
+    "class_id": 25,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.6603536270558834,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "a51db603-8cec-4585-a74e-d616289fd63f",
+    "bbox_absolute": [
+      539.6507263183594,
+      41.35816955566406,
+      569.6885452270508,
+      76.17757415771484
+    ],
+    "confidence": 0.08110527694225311,
+    "query": "white box trailer roof",
+    "class_id": 8,
+    "ensemble_source": "conservative",
+    "pass_id": 2,
+    "quality_score": 0.6567736938595772,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "198613f3-3925-452f-a227-a6d1619391bb",
+    "bbox_absolute": [
+      1182.5797276496887,
+      416.060302734375,
+      1247.8828887939453,
+      445.16615295410156
+    ],
+    "confidence": 0.07155241072177887,
+    "query": "white box trailer roof",
+    "class_id": 8,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.6500866875052452,
+    "consensus_count": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "57bc2085-b2d3-46bd-8713-a03270a16e10",
+    "bbox_absolute": [
+      1247.29052734375,
+      511.8525390625,
+      1467.821533203125,
+      616.1176300048828
+    ],
+    "confidence": 0.13333448767662048,
+    "query": "semi trailer top view",
+    "class_id": 0,
+    "ensemble_source": "conservative",
+    "pass_id": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "086ad4ab-22f2-4dcc-ac4b-0e2ac20c7f3d",
+    "bbox_absolute": [
+      1469.2061767578125,
+      1419.07470703125,
+      1492.568115234375,
+      1456.6041259765625
+    ],
+    "confidence": 0.12005656957626343,
+    "query": "dry van trailer satellite view",
+    "class_id": 9,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "cc00f02b-5de3-4214-aec6-5cc74c8345c3",
+    "bbox_absolute": [
+      1397.241943359375,
+      1081.0005493164062,
+      1473.6555786132812,
+      1149.7514038085938
+    ],
+    "confidence": 0.11727359145879745,
+    "query": "semi\u2011trailer parking stalls",
+    "class_id": 48,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "f5bcb6d7-d4aa-4cd7-8799-4ad2361f7fc8",
+    "bbox_absolute": [
+      920.7664794921875,
+      82.78845977783203,
+      954.450439453125,
+      109.72796630859375
+    ],
+    "confidence": 0.11507906019687653,
+    "query": "white box trailer roof",
+    "class_id": 8,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "a6f228db-4f22-4103-b9d8-d39b78cea555",
+    "bbox_absolute": [
+      264.64385986328125,
+      469.29476165771484,
+      288.9658203125,
+      544.4276275634766
+    ],
+    "confidence": 0.10442308336496353,
+    "query": "semi\u2011trailer parking stalls",
+    "class_id": 48,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "edc8a747-a365-4b4a-a0b0-6f53eb34170d",
+    "bbox_absolute": [
+      1098.9297180175781,
+      383.9959816932678,
+      1124.4837036132812,
+      403.606595993042
+    ],
+    "confidence": 0.10342852026224136,
+    "query": "detached semi trailer",
+    "class_id": 2,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "15bedbfc-f5ba-44b9-bd9b-66eba833a652",
+    "bbox_absolute": [
+      261.9154510498047,
+      285.7799415588379,
+      764.4366455078125,
+      374.4200134277344
+    ],
+    "confidence": 0.1032940000295639,
+    "query": "semi trailer top view",
+    "class_id": 1,
+    "ensemble_source": "high_quality",
+    "pass_id": 3,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "a36d6f66-5c84-4496-b9cc-8c2058f136c7",
+    "bbox_absolute": [
+      1402.0555419921875,
+      1000.33251953125,
+      1457.0362548828125,
+      1023.159423828125
+    ],
+    "confidence": 0.10238590091466904,
+    "query": "parking lane trailer aerial",
+    "class_id": 22,
+    "ensemble_source": "conservative",
+    "pass_id": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "76c5010d-68d4-41f1-a63a-2888481428a8",
+    "bbox_absolute": [
+      326.3974609375,
+      424.76983642578125,
+      513.037109375,
+      510.9437255859375
+    ],
+    "confidence": 0.08979518711566925,
+    "query": "semi trailer top view",
+    "class_id": 1,
+    "ensemble_source": "high_quality",
+    "pass_id": 3,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "9de7a66c-2795-447c-af78-2ee158824216",
+    "bbox_absolute": [
+      1389.5432739257812,
+      767.9464967250824,
+      1441.9592895507812,
+      782.0015487670898
+    ],
+    "confidence": 0.08157462626695633,
+    "query": "white shipping container top down",
+    "class_id": 65,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "0b11033e-e161-4a8c-a601-9d96e69f0653",
+    "bbox_absolute": [
+      291.61773681640625,
+      856.2896728515625,
+      509.81463623046875,
+      1022.880859375
+    ],
+    "confidence": 0.06999419629573822,
+    "query": "container yard aerial view",
+    "class_id": 3,
+    "ensemble_source": "high_quality",
+    "pass_id": 3,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "477f7c11-48d6-4144-ae60-c270788361cb",
+    "bbox_absolute": [
+      1389.3867797851562,
+      1023.6765823364258,
+      1561.216796875,
+      1176.8039245605469
+    ],
+    "confidence": 0.06677883118391037,
+    "query": "container yard aerial view",
+    "class_id": 3,
+    "ensemble_source": "high_quality",
+    "pass_id": 3,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "ddb69052-16de-40e1-a3d5-c84d23f4f96d",
+    "bbox_absolute": [
+      1395.5300903320312,
+      908.3002014160156,
+      1470.2738037109375,
+      1146.896469116211
+    ],
+    "confidence": 0.06599760055541992,
+    "query": "colorful containers row aerial",
+    "class_id": 66,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "02191fbe-5298-4b37-80c8-c2fad7d70346",
+    "bbox_absolute": [
+      1137.6512145996094,
+      1268.978515625,
+      1170.9955139160156,
+      1297.180908203125
+    ],
+    "confidence": 0.0634976401925087,
+    "query": "blue shipping container satellite",
+    "class_id": 61,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "d19a535b-a3b9-4c9a-a2cb-ba1c98526b35",
+    "bbox_absolute": [
+      1299.9972076416016,
+      601.7482258081436,
+      1344.0811309814453,
+      620.913553237915
+    ],
+    "confidence": 0.06323045492172241,
+    "query": "blue shipping container satellite",
+    "class_id": 61,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "7bdd7dcd-f716-4182-97c2-721b0ed5d33a",
+    "bbox_absolute": [
+      1401.3797607421875,
+      855.3392715454102,
+      1424.507080078125,
+      880.3591232299805
+    ],
+    "confidence": 0.05958699807524681,
+    "query": "blue shipping container satellite",
+    "class_id": 61,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "85ca2fc6-b480-4c90-a3fe-0120a90ea8ec",
+    "bbox_absolute": [
+      815.892566204071,
+      58.41680908203125,
+      847.680046081543,
+      85.58209228515625
+    ],
+    "confidence": 0.05562788248062134,
+    "query": "orange shipping container roof",
+    "class_id": 64,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "972f3f9e-5c31-440a-a667-e9014395a5c9",
+    "bbox_absolute": [
+      1192.5337219238281,
+      43.89363098144531,
+      1238.8211364746094,
+      72.82159423828125
+    ],
+    "confidence": 0.05438673496246338,
+    "query": "cargo trailer from above",
+    "class_id": 5,
+    "ensemble_source": "high_quality",
+    "pass_id": 3,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "3cff334e-7276-4b83-9465-d8cb5a8b0720",
+    "bbox_absolute": [
+      1454.5710754394531,
+      1448.8288269042969,
+      1565.1612854003906,
+      1663.0943908691406
+    ],
+    "confidence": 0.05420538783073425,
+    "query": "container yard aerial view",
+    "class_id": 3,
+    "ensemble_source": "high_quality",
+    "pass_id": 3,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "0898f5be-b59a-4895-a296-cf934d4ab727",
+    "bbox_absolute": [
+      1354.3980102539062,
+      1146.0191040039062,
+      1552.3114013671875,
+      1336.0606079101562
+    ],
+    "confidence": 0.0492553748190403,
+    "query": "bright colored container yard",
+    "class_id": 67,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "ffbd3eb0-ec82-471a-8106-a1b2b5367588",
+    "bbox_absolute": [
+      1105.8359985351562,
+      158.64151000976562,
+      1132.433837890625,
+      193.58282470703125
+    ],
+    "confidence": 0.04301104322075844,
+    "query": "orange shipping container roof",
+    "class_id": 64,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "5328ebba-6b85-49fb-be07-eae192c25ab5",
+    "bbox_absolute": [
+      1103.8135833740234,
+      199.930851906538,
+      1135.7551574707031,
+      213.18318271636963
+    ],
+    "confidence": 0.039319224655628204,
+    "query": "orange shipping container roof",
+    "class_id": 64,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "fdb9c710-540f-4dcd-be5a-914744aa8e20",
+    "bbox_absolute": [
+      1101.4905395507812,
+      153.0577392578125,
+      1133.5323486328125,
+      165.02029418945312
+    ],
+    "confidence": 0.03814391419291496,
+    "query": "container chassis roof view",
+    "class_id": 38,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "cd8cffd0-5f69-4ce1-a4ab-1599ad65ea3e",
+    "bbox_absolute": [
+      1406.2324829101562,
+      1402.61865234375,
+      1471.8533935546875,
+      1420.0455322265625
+    ],
+    "confidence": 0.03744997829198837,
+    "query": "container chassis roof view",
+    "class_id": 38,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "73fe237c-7e45-440c-85e5-8493bbe29426",
+    "bbox_absolute": [
+      862.6388549804688,
+      1240.035400390625,
+      887.4057235717773,
+      1259.9525146484375
+    ],
+    "confidence": 0.03571806102991104,
+    "query": "blue shipping container satellite",
+    "class_id": 61,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "83305e7c-b7e6-4035-8dd8-101513c39f14",
+    "bbox_absolute": [
+      1383.2940673828125,
+      599.7306600213051,
+      1517.1089172363281,
+      638.204460144043
+    ],
+    "confidence": 0.03464975953102112,
+    "query": "container chassis roof view",
+    "class_id": 38,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "ba7848ea-acb5-4fd3-aa77-86692ffa934d",
+    "bbox_absolute": [
+      125.34774780273438,
+      132.9915008544922,
+      170.0937957763672,
+      160.25955200195312
+    ],
+    "confidence": 0.03266695514321327,
+    "query": "orange shipping container roof",
+    "class_id": 64,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "e361eaed-c179-4deb-b148-21beff940c94",
+    "bbox_absolute": [
+      1042.6747436523438,
+      1277.519287109375,
+      1065.6013793945312,
+      1294.328125
+    ],
+    "confidence": 0.0313730463385582,
+    "query": "blue shipping container satellite",
+    "class_id": 61,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "2636c577-0a9c-48b5-be49-53f082ba2d98",
+    "bbox_absolute": [
+      1401.05615234375,
+      782.8388242721558,
+      1439.1943359375,
+      803.0472984313965
+    ],
+    "confidence": 0.03055582381784916,
+    "query": "white shipping container top down",
+    "class_id": 65,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "2aecc50a-61f1-437c-b4c8-556403635513",
+    "bbox_absolute": [
+      1521.9137878417969,
+      1082.2141189575195,
+      1571.1897277832031,
+      1195.3001556396484
+    ],
+    "confidence": 0.028933648020029068,
+    "query": "blue shipping container satellite",
+    "class_id": 61,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "ca1ea355-419a-4f19-8642-f226577508a6",
+    "bbox_absolute": [
+      1469.3225708007812,
+      1068.8786926269531,
+      1543.0422973632812,
+      1160.4602355957031
+    ],
+    "confidence": 0.027080649510025978,
+    "query": "white shipping container top down",
+    "class_id": 65,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
     "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
   }
 ]
