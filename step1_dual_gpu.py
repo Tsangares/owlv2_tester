@@ -18,6 +18,7 @@ Example:
 """
 
 import os
+import time
 import json
 import uuid
 import argparse
@@ -30,6 +31,19 @@ from typing import List, Dict
 import torch
 from PIL import Image, ImageDraw, ImageFont
 from transformers import Owlv2Processor, Owlv2ForObjectDetection
+
+
+import time, functools
+
+def timeit(fn):
+    @functools.wraps(fn)
+    def wrapper(*args, **kwargs):
+        t0 = time.perf_counter()
+        result = fn(*args, **kwargs)
+        dt = time.perf_counter() - t0
+        logger.info(f"[TIMER] {fn.__qualname__} → {dt:.3f}s")
+        return result
+    return wrapper
 
 # —────────────────────────────────────────────────────────────────────────────
 #  Logger
@@ -210,6 +224,7 @@ class OWLv2TruckAnnotator:
                 filtered.append(d)
         return self._nms(filtered, 0.5)
 
+    @timeit
     def _detect_tiles(self, img: Image.Image, tile: int = 768, stride: int = 512) -> List[Dict]:
         w, h = img.size
         tile = min(tile, w, h)  
@@ -245,6 +260,7 @@ class OWLv2TruckAnnotator:
         
         return self._nms(all_d, 0.3)
 
+    @timeit
     def _ensemble_detect(self, img: Image.Image) -> List[Dict]:
         """
         Multi-pass ensemble detection with smart filtering for better precision/recall.
@@ -252,6 +268,7 @@ class OWLv2TruckAnnotator:
         all_detections = []
         
         # Pass 1: Fine-grained detection (current approach)
+        logging.info("Starting Fine-grained detection")
         detections_1 = self._detect_tiles(img, tile=768, stride=384)
         for d in detections_1:
             d['ensemble_source'] = 'fine_grained'
@@ -259,6 +276,7 @@ class OWLv2TruckAnnotator:
         all_detections.extend(detections_1)
         
         # Pass 2: Conservative detection (higher confidence, larger tiles)
+        logging.info("Starting Conservative detection")
         detections_2 = self._detect_tiles(img, tile=1024, stride=512) 
         # Filter to higher confidence for this pass
         detections_2 = [d for d in detections_2 if d['confidence'] > 0.08]
@@ -268,6 +286,7 @@ class OWLv2TruckAnnotator:
         all_detections.extend(detections_2)
         
         # Pass 3: High-quality queries only - use only the first 6 queries to avoid index errors
+        logging.info("Starting High-quality queries only")
         original_queries = self.queries
         self.queries = self.queries[:6]  # Use first 6 queries only
         detections_3 = self._detect_tiles(img, tile=512, stride=256)
@@ -280,6 +299,7 @@ class OWLv2TruckAnnotator:
         
         return self._smart_filter_detections(all_detections)
     
+    @timeit
     def _smart_filter_detections(self, detections: List[Dict]) -> List[Dict]:
         """
         Apply smart filtering to remove obvious false positives and improve quality.
@@ -329,6 +349,7 @@ class OWLv2TruckAnnotator:
         max_detections = min(100, len(quality_filtered))  # Cap at 100 good detections
         return quality_filtered[:max_detections]
     
+    @timeit
     def _apply_consensus_filter(self, detections: List[Dict]) -> List[Dict]:
         """
         Boost detections found by multiple ensemble passes, but prioritize container/trailer detections.
@@ -430,11 +451,13 @@ class OWLv2TruckAnnotator:
                 # Use ensemble detection with smart filtering
                 try:
                     dets = self._ensemble_detect(img)
+                    
                     logger.info(f"GPU {self.gpu_id}: Ensemble detected {len(dets)} high-quality containers/trailers")
                 except Exception as e:
                     logger.error(f"GPU {self.gpu_id}: Ensemble error: {e}", exc_info=True)
                     # Fallback to regular detection but still apply smart filtering
                     dets = self._detect_tiles(img)
+                    
                     # Add ensemble metadata for fallback
                     for d in dets:
                         d['ensemble_source'] = 'fallback'
@@ -449,6 +472,10 @@ class OWLv2TruckAnnotator:
             
             for d in dets:
                 d['image_path'] = str(image_path)
+            
+            t3 = time.perf_counter()
+            logger.info(f"  detect_trucks total  : {t3-t0:.3f}s")
+            
             
             # Note: ensemble already limits detections internally to 100
             if len(dets) > self.max_detections and not self.use_ensemble:

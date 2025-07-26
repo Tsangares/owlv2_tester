@@ -1,834 +1,1701 @@
 [
   {
-    "detection_id": "bff7dc6a-2394-4c26-ab5f-cd42ce929a14",
+    "detection_id": "7c5b2362-8de9-4daf-9f50-c4934e3ffda5",
     "bbox_absolute": [
-      928.6269226074219,
-      627.3345642089844,
-      1112.7547912597656,
+      928.6268768310547,
+      627.3345565795898,
+      1112.7548217773438,
       668.2909240722656
     ],
-    "confidence": 0.3230607509613037,
+    "confidence": 0.3230591118335724,
     "query": "semi\u2011trailer aerial",
     "class_id": 1,
     "ensemble_source": "high_quality",
     "pass_id": 3,
-    "quality_score": 1.1938364505767824,
+    "quality_score": 1.1938354671001437,
     "consensus_count": 3,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "f7079820-3aff-4a81-8333-8f61eeb3dee1",
+    "detection_id": "0c0ce779-cc13-462d-9fb2-d2d25e229449",
     "bbox_absolute": [
-      936.900390625,
-      577.2701721191406,
+      936.9003295898438,
+      577.2701568603516,
       1113.8675537109375,
-      616.4489593505859
+      616.4489288330078
     ],
-    "confidence": 0.31514930725097656,
+    "confidence": 0.315153032541275,
     "query": "semi\u2011trailer aerial",
     "class_id": 1,
     "ensemble_source": "high_quality",
     "pass_id": 3,
-    "quality_score": 1.1890895843505862,
+    "quality_score": 1.1890918195247653,
     "consensus_count": 3,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "8a1eb28c-b69e-4fb2-bc6d-0ce34f212f48",
+    "detection_id": "93d147cf-510e-4170-86e2-bcc3b3502c91",
     "bbox_absolute": [
-      932.8704223632812,
+      932.8704376220703,
       484.98790740966797,
-      1118.9988098144531,
-      523.2761001586914
+      1118.9988708496094,
+      523.2761383056641
     ],
-    "confidence": 0.31282106041908264,
+    "confidence": 0.3128206431865692,
     "query": "trailer row aerial view",
     "class_id": 35,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 1.0876926362514496,
+    "quality_score": 1.0876923859119416,
     "consensus_count": 3,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "478102cd-be05-4c62-9fe7-5307c4e9cdfd",
+    "detection_id": "28557a36-f8d8-464c-842f-79212ff5c70a",
     "bbox_absolute": [
-      927.4084930419922,
-      815.3903656005859,
+      927.4084625244141,
+      815.3903503417969,
       1113.2836303710938,
-      843.5409240722656
+      843.5409088134766
     ],
-    "confidence": 0.17743006348609924,
+    "confidence": 0.17743156850337982,
     "query": "grey trailer roof aerial",
     "class_id": 27,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 1.0064580380916597,
+    "quality_score": 1.006458941102028,
     "consensus_count": 3,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "cf339c08-5a8d-4c2d-8339-80d92a06c008",
+    "detection_id": "af524e02-4782-4b11-9c0c-6d9f8b8ceef6",
     "bbox_absolute": [
       913.4520263671875,
       1355.8104858398438,
-      1034.2282104492188,
+      1034.228271484375,
       1378.2186279296875
     ],
-    "confidence": 0.14665161073207855,
+    "confidence": 0.1466519683599472,
     "query": "white box trailer roof",
     "class_id": 8,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 0.9879909664392472,
+    "quality_score": 0.9879911810159685,
     "consensus_count": 3,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "f9b684a0-1cc8-41ab-b30f-0360c388d533",
+    "detection_id": "b05969ed-5e89-41b8-851c-95f3e028d85e",
     "bbox_absolute": [
-      1440.0010070800781,
+      1440.0010375976562,
       1399.7265666723251,
       1457.7134399414062,
-      1493.0582885742188
+      1493.058349609375
     ],
-    "confidence": 0.09770619124174118,
+    "confidence": 0.09770000725984573,
     "query": "semi\u2011trailer without truck aerial",
     "class_id": 41,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 0.9586237147450447,
+    "quality_score": 0.9586200043559074,
     "consensus_count": 3,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "7dc4d620-8b2a-4241-bcac-328e9795dd35",
+    "detection_id": "01ee27d6-a0ef-4621-8dd1-ad663407820f",
     "bbox_absolute": [
       1005.4347229003906,
       725.1316528320312,
       1032.546875,
-      753.1328430175781
+      753.1328125
     ],
-    "confidence": 0.08122798800468445,
+    "confidence": 0.08122893422842026,
     "query": "grid of trailers top view",
     "class_id": 36,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 0.9487367928028108,
+    "quality_score": 0.9487373605370522,
     "consensus_count": 3,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "9a7f61e4-45bb-4422-bbf2-f35af1a01262",
+    "detection_id": "396250c4-a6f5-4e0c-acfe-130d10580169",
     "bbox_absolute": [
-      926.4241943359375,
-      630.7533111572266,
-      964.0825805664062,
-      668.5774078369141
+      932.2758178710938,
+      723.2009582519531,
+      1024.6705322265625,
+      758.1124877929688
     ],
-    "confidence": 0.05898703262209892,
+    "confidence": 0.09226971864700317,
     "query": "semi\u2011trailer aerial",
     "class_id": 1,
     "ensemble_source": "high_quality",
     "pass_id": 3,
-    "quality_score": 0.8353922195732594,
+    "quality_score": 0.855361831188202,
     "consensus_count": 2,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "0aa460a5-cc8d-4b6d-8770-c69998012b38",
+    "detection_id": "9c00fe3d-1f1f-439d-96eb-7c3fc710780a",
     "bbox_absolute": [
-      175.5986785888672,
+      957.2904510498047,
+      759.4736633300781,
+      997.9969940185547,
+      795.8915710449219
+    ],
+    "confidence": 0.06250260025262833,
+    "query": "semi\u2011trailer aerial",
+    "class_id": 1,
+    "ensemble_source": "high_quality",
+    "pass_id": 3,
+    "quality_score": 0.8375015601515771,
+    "consensus_count": 2,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "be725917-0730-4e85-b459-2170a8e3f350",
+    "bbox_absolute": [
+      926.4241485595703,
+      630.7533111572266,
+      964.0825653076172,
+      668.5774383544922
+    ],
+    "confidence": 0.058988045901060104,
+    "query": "semi\u2011trailer aerial",
+    "class_id": 1,
+    "ensemble_source": "high_quality",
+    "pass_id": 3,
+    "quality_score": 0.835392827540636,
+    "consensus_count": 2,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "17bb8478-d533-45c7-9f5e-cd70d5e1bd52",
+    "bbox_absolute": [
+      175.59873962402344,
       1728.512939453125,
-      331.4982604980469,
+      331.498291015625,
       1755.43408203125
     ],
-    "confidence": 0.14469438791275024,
+    "confidence": 0.144694522023201,
     "query": "grey trailer roof aerial",
     "class_id": 27,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 0.7868166327476502,
+    "quality_score": 0.7868167132139205,
     "consensus_count": 2,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "32d27a0f-da90-46eb-88c5-cda1578e7ee9",
+    "detection_id": "133e8a22-cf1a-4cf9-933c-1ed51fcaabc8",
     "bbox_absolute": [
-      925.3425598144531,
+      925.3425140380859,
       442.27569580078125,
-      1181.2097778320312,
-      494.9754638671875
+      1181.2098693847656,
+      494.9753723144531
     ],
-    "confidence": 0.09650953859090805,
+    "confidence": 0.09650982916355133,
     "query": "grey trailer roof aerial",
     "class_id": 27,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 0.7579057231545449,
+    "quality_score": 0.7579058974981308,
     "consensus_count": 2,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "a2589bae-09af-4834-a6ab-514a287f73b3",
+    "detection_id": "69183f28-a2fa-4014-8f3d-1b6dcaa08232",
     "bbox_absolute": [
-      928.5179138183594,
-      889.8225240707397,
+      928.5178833007812,
+      889.8225259780884,
       1109.7020874023438,
-      912.7384185791016
+      912.738468170166
     ],
-    "confidence": 0.08512856066226959,
+    "confidence": 0.08512939512729645,
     "query": "container chassis roof view",
     "class_id": 38,
     "ensemble_source": "conservative",
     "pass_id": 2,
-    "quality_score": 0.7510771363973618,
+    "quality_score": 0.7510776370763779,
     "consensus_count": 2,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "910afa80-04e7-4517-b3fb-64bd1a02f024",
+    "detection_id": "04e26bb8-30b2-49cc-aeb8-1447854ecfbb",
     "bbox_absolute": [
       1092.4625396728516,
       1507.3432235717773,
-      1159.1236877441406,
+      1159.1237182617188,
       1516.9147491455078
     ],
-    "confidence": 0.08354739099740982,
+    "confidence": 0.08354829251766205,
     "query": "grey trailer roof aerial",
     "class_id": 27,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 0.7501284345984459,
+    "quality_score": 0.7501289755105973,
     "consensus_count": 2,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "fe46cd65-cc7b-4027-8dfb-37c62cda7fc9",
+    "detection_id": "cfb816a8-709d-468b-a34d-305aa7b03df2",
     "bbox_absolute": [
-      1096.9022216796875,
-      1543.9439392089844,
-      1167.1694793701172,
-      1553.7612609863281
+      1096.9022369384766,
+      1543.9439544677734,
+      1167.1695251464844,
+      1553.761245727539
     ],
-    "confidence": 0.08137347549200058,
+    "confidence": 0.08137356489896774,
     "query": "grey trailer roof aerial",
     "class_id": 27,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 0.7488240852952004,
+    "quality_score": 0.7488241389393806,
     "consensus_count": 2,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "5a6a3c06-0f4a-4166-a9fb-6497e82ee451",
+    "detection_id": "f4e4fc56-3f15-4161-bde3-0b2fae2b6703",
     "bbox_absolute": [
-      929.8500356674194,
+      929.8500118255615,
       438.7464294433594,
-      1194.3155822753906,
+      1194.3155517578125,
       455.0973205566406
     ],
-    "confidence": 0.08115822821855545,
+    "confidence": 0.08115797489881516,
     "query": "grey trailer roof aerial",
     "class_id": 27,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 0.7486949369311333,
+    "quality_score": 0.7486947849392891,
     "consensus_count": 2,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "3750c37b-7823-4115-bb15-83187b74af85",
+    "detection_id": "68fa851d-d76c-47e6-9fda-d8a405fdd71f",
     "bbox_absolute": [
       1085.8201904296875,
       628.3654479980469,
       1113.64111328125,
       667.3699645996094
     ],
-    "confidence": 0.07529399544000626,
+    "confidence": 0.07529434561729431,
     "query": "semi\u2011trailer aerial",
     "class_id": 1,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 0.7451763972640038,
+    "quality_score": 0.7451766073703766,
     "consensus_count": 2,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "54c6456a-a3a8-496d-be75-48938243a1b8",
+    "detection_id": "1676faf2-1ffd-4503-86c5-7dbfc89d5f31",
     "bbox_absolute": [
-      931.0906219482422,
+      931.0906066894531,
       487.51170349121094,
-      965.3771209716797,
-      524.5857009887695
+      965.3771514892578,
+      524.5857238769531
     ],
-    "confidence": 0.06866254657506943,
+    "confidence": 0.06866209954023361,
     "query": "grid of trailers top view",
     "class_id": 36,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 0.7411975279450417,
+    "quality_score": 0.7411972597241402,
     "consensus_count": 2,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "2507eaa9-86d7-4908-a889-53c5991d4c55",
+    "detection_id": "92b5be3a-8d8f-453c-b6af-e095d9051670",
     "bbox_absolute": [
       1089.0106201171875,
-      579.8736877441406,
+      579.8736572265625,
       1114.6263732910156,
       614.1546325683594
     ],
-    "confidence": 0.062176600098609924,
+    "confidence": 0.062175970524549484,
     "query": "semi\u2011trailer aerial",
     "class_id": 1,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 0.737305960059166,
+    "quality_score": 0.7373055823147296,
     "consensus_count": 2,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "8d82972c-03c8-4580-ace2-17f6137ca8be",
+    "detection_id": "da691921-3f5f-42d8-abf7-4a930d3ed4f4",
     "bbox_absolute": [
       1038.982421875,
-      763.8833160400391,
+      763.8832855224609,
       1067.1081237792969,
       790.1957702636719
     ],
-    "confidence": 0.06117381900548935,
+    "confidence": 0.06117423251271248,
     "query": "grid of trailers top view",
     "class_id": 36,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 0.7367042914032936,
+    "quality_score": 0.7367045395076275,
     "consensus_count": 2,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "61f6ed37-3854-4237-bc49-830c64712b73",
+    "detection_id": "b96e49dd-53d7-4efc-b657-7815fc450acf",
     "bbox_absolute": [
       1310.9911804199219,
-      201.91627740859985,
+      201.91622972488403,
       1331.5117797851562,
-      400.001953125
+      400.0019989013672
     ],
-    "confidence": 0.06061668321490288,
+    "confidence": 0.06061726436018944,
     "query": "semi\u2011trailer without truck aerial",
     "class_id": 41,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 0.7363700099289417,
+    "quality_score": 0.7363703586161137,
     "consensus_count": 2,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "e2ac3f14-b173-4d42-bcd3-1dea2032f4e4",
+    "detection_id": "5a610124-388f-47cb-9f5b-992b30a121ff",
     "bbox_absolute": [
-      621.3902893066406,
+      621.3904190063477,
       1809.9844970703125,
-      817.8775634765625,
+      817.8777160644531,
       1833.0360107421875
     ],
-    "confidence": 0.21548281610012054,
+    "confidence": 0.21548378467559814,
     "query": "grey trailer roof aerial",
     "class_id": 27,
     "ensemble_source": "conservative",
     "pass_id": 2,
-    "quality_score": 0.41548281610012056,
+    "quality_score": 0.41548378467559816,
     "consensus_count": 1,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "11e2c107-6e45-435e-818a-7ac47f96f5c3",
+    "detection_id": "670e9baa-b644-41cb-ac9f-92159113b9e9",
     "bbox_absolute": [
       929.1924438476562,
       722.9888000488281,
-      1077.4981689453125,
-      796.184814453125
+      1077.498291015625,
+      796.1847839355469
     ],
-    "confidence": 0.20664140582084656,
+    "confidence": 0.20664265751838684,
     "query": "trailer row aerial view",
     "class_id": 35,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 0.40664140582084657,
+    "quality_score": 0.40664265751838685,
     "consensus_count": 1,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "bbc63d54-9121-4589-93ac-7670dae1102a",
+    "detection_id": "ec2d1261-0a24-4e87-8a5b-fb37b85b6917",
     "bbox_absolute": [
       1000.4947509765625,
-      379.9532165527344,
-      1076.5106811523438,
-      405.93267822265625
+      379.95318603515625,
+      1076.5108642578125,
+      405.9327392578125
     ],
-    "confidence": 0.11995858699083328,
+    "confidence": 0.11995942145586014,
     "query": "grey trailer roof aerial",
     "class_id": 27,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 0.3199585869908333,
+    "quality_score": 0.31995942145586015,
     "consensus_count": 1,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "87a52794-c1a7-45f8-a828-b303e9fa2b20",
+    "detection_id": "8a0f74f9-267d-4353-8311-3b4384527901",
     "bbox_absolute": [
       922.7799682617188,
-      513.2704620361328,
-      1025.580322265625,
-      818.173583984375
+      513.2705383300781,
+      1025.5802001953125,
+      818.1735229492188
     ],
-    "confidence": 0.0924268513917923,
+    "confidence": 0.09242606908082962,
     "query": "grid of trailers top view",
     "class_id": 36,
     "ensemble_source": "conservative",
     "pass_id": 2,
-    "quality_score": 0.2924268513917923,
+    "quality_score": 0.29242606908082963,
     "consensus_count": 1,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "1ad1e3aa-3653-4eab-a6ba-c67348bdb6ac",
+    "detection_id": "887efd9b-f3fe-411c-9801-ce865f333c5d",
     "bbox_absolute": [
-      932.2757568359375,
-      723.2009582519531,
-      1024.6704711914062,
-      758.1124572753906
+      927.972412109375,
+      869.130126953125,
+      1113.8003540039062,
+      889.9977569580078
     ],
-    "confidence": 0.0922686830163002,
-    "query": "semi\u2011trailer aerial",
-    "class_id": 1,
-    "ensemble_source": "high_quality",
-    "pass_id": 3,
-    "quality_score": 0.2922686830163002,
-    "consensus_count": 1,
-    "image_path": "test_images/images/full/losangeles_8009013078.png"
-  },
-  {
-    "detection_id": "7e09e95e-db33-44f5-ae69-6e3f49cea696",
-    "bbox_absolute": [
-      927.9724731445312,
-      869.1301116943359,
-      1113.8004150390625,
-      889.9977264404297
-    ],
-    "confidence": 0.08497964590787888,
+    "confidence": 0.08497903496026993,
     "query": "grey trailer roof aerial",
     "class_id": 27,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 0.2849796459078789,
+    "quality_score": 0.28497903496026994,
     "consensus_count": 1,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "3cba3f39-6c7f-4730-b195-636b0b6bbfeb",
+    "detection_id": "45edab76-bc57-497f-8984-5aaf6d81d983",
     "bbox_absolute": [
-      932.6320343017578,
-      840.0769653320312,
-      1110.9959716796875,
-      874.8375244140625
+      932.6318969726562,
+      840.0769958496094,
+      1110.9960021972656,
+      874.8374633789062
     ],
-    "confidence": 0.08493131399154663,
+    "confidence": 0.08493251353502274,
     "query": "orange shipping container roof",
     "class_id": 64,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 0.28493131399154664,
+    "quality_score": 0.28493251353502275,
     "consensus_count": 1,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "eb2a7d22-ffae-4080-8d54-7bcd390ff4cd",
+    "detection_id": "24e58bd6-09d3-4a20-b5d5-a7d94a5fda71",
     "bbox_absolute": [
-      932.517822265625,
-      1014.8907775878906,
-      1115.1351318359375,
-      1044.7399597167969
+      932.5176391601562,
+      1014.8907623291016,
+      1115.1349487304688,
+      1044.739990234375
     ],
-    "confidence": 0.07516738772392273,
+    "confidence": 0.07516731321811676,
     "query": "grey trailer roof aerial",
     "class_id": 27,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 0.27516738772392274,
+    "quality_score": 0.27516731321811677,
     "consensus_count": 1,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "f41f2832-75e2-4b76-98a5-05c0769ef178",
+    "detection_id": "a70a154a-fead-40a1-9265-ca67310fd458",
     "bbox_absolute": [
-      929.5078582763672,
-      1040.1112365722656,
-      1110.6234741210938,
-      1073.7382507324219
+      929.5077819824219,
+      1040.1112213134766,
+      1110.6235046386719,
+      1073.7382278442383
     ],
-    "confidence": 0.07252611219882965,
+    "confidence": 0.07252677530050278,
     "query": "orange shipping container roof",
     "class_id": 64,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 0.27252611219882966,
+    "quality_score": 0.2725267753005028,
     "consensus_count": 1,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "2bb6842f-6a98-43bb-acf9-0365cfd4a1c0",
+    "detection_id": "7da39059-35d0-41dd-8091-df206d2c4382",
     "bbox_absolute": [
-      1077.2157287597656,
-      72.46654510498047,
-      1240.0656127929688,
-      86.3279037475586
+      1077.2156372070312,
+      72.46656799316406,
+      1240.0654907226562,
+      86.32793426513672
     ],
-    "confidence": 0.07158476859331131,
+    "confidence": 0.07158460468053818,
     "query": "semi trailer alignment aerial",
     "class_id": 55,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 0.2715847685933113,
+    "quality_score": 0.2715846046805382,
     "consensus_count": 1,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "d42c4eaa-0e96-4c9c-a944-a151942f7ed6",
+    "detection_id": "292eb15a-4fb9-422e-a0d4-52474c0b9329",
     "bbox_absolute": [
       999.210693359375,
       400.99660873413086,
       1057.3759765625,
       434.93524169921875
     ],
-    "confidence": 0.07151257246732712,
+    "confidence": 0.07151317596435547,
     "query": "white box trailer roof",
     "class_id": 8,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 0.27151257246732713,
+    "quality_score": 0.2715131759643555,
     "consensus_count": 1,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "bfa29cb4-cd0c-495a-809e-467f9f5204e8",
+    "detection_id": "bc1f91af-9106-4cab-8cb9-27728329ac04",
     "bbox_absolute": [
-      1040.6826400756836,
-      62.320308685302734,
-      1330.9373474121094,
-      83.27900695800781
+      1040.6824645996094,
+      62.320281982421875,
+      1330.9373779296875,
+      83.27901458740234
     ],
-    "confidence": 0.06339985877275467,
+    "confidence": 0.06340064108371735,
     "query": "grey trailer roof aerial",
     "class_id": 27,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 0.2633998587727547,
+    "quality_score": 0.26340064108371736,
     "consensus_count": 1,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "680002ad-19b7-4d85-a735-663b56833011",
+    "detection_id": "a4a2fc20-e0e0-49e5-a0cd-340babfb9d2c",
     "bbox_absolute": [
       1026.6396484375,
-      248.77152633666992,
+      248.77155303955078,
       1077.62158203125,
-      304.6796188354492
+      304.6796646118164
     ],
-    "confidence": 0.06313612312078476,
+    "confidence": 0.06313619017601013,
     "query": "green container top view",
     "class_id": 62,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 0.26313612312078477,
+    "quality_score": 0.26313619017601014,
     "consensus_count": 1,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "c80532d5-b05c-49a5-8ee2-7610318d1dee",
-    "bbox_absolute": [
-      957.2904815673828,
-      759.4736328125,
-      997.9970245361328,
-      795.8915405273438
-    ],
-    "confidence": 0.0625026673078537,
-    "query": "semi\u2011trailer aerial",
-    "class_id": 1,
-    "ensemble_source": "high_quality",
-    "pass_id": 3,
-    "quality_score": 0.2625026673078537,
-    "consensus_count": 1,
-    "image_path": "test_images/images/full/losangeles_8009013078.png"
-  },
-  {
-    "detection_id": "cd97df0b-fd74-491e-89bd-b41092bbdb71",
+    "detection_id": "1086c681-e13e-44c5-8d80-71f0fd0a311b",
     "bbox_absolute": [
       1053.1495361328125,
-      399.1317310333252,
+      399.13172340393066,
       1081.2920532226562,
-      433.54266357421875
+      433.5426559448242
     ],
-    "confidence": 0.06154411658644676,
+    "confidence": 0.06154460832476616,
     "query": "white box trailer roof",
     "class_id": 8,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 0.2615441165864468,
+    "quality_score": 0.26154460832476617,
     "consensus_count": 1,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "e133406f-a5e3-48f5-85a8-6a4dae31224a",
+    "detection_id": "da7b78c3-835d-46fd-be5a-7cffbbd9adfe",
     "bbox_absolute": [
       1130.7060546875,
       1373.2579345703125,
-      1144.7138061523438,
+      1144.7138671875,
       1387.1217041015625
     ],
-    "confidence": 0.06039537116885185,
+    "confidence": 0.060394953936338425,
     "query": "grey trailer roof aerial",
     "class_id": 27,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 0.26039537116885186,
+    "quality_score": 0.26039495393633844,
     "consensus_count": 1,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "770ab42c-9749-40e6-8efd-cae1917ffb2e",
+    "detection_id": "8048b7e8-626d-431b-a90d-af220367bdc6",
     "bbox_absolute": [
-      1315.0939331054688,
+      1315.0938720703125,
       1503.1668701171875,
       1475.1474609375,
-      1572.239013671875
+      1572.2392578125
     ],
-    "confidence": 0.060131341218948364,
+    "confidence": 0.06013110280036926,
     "query": "white box trailer roof",
     "class_id": 8,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 0.2601313412189484,
+    "quality_score": 0.2601311028003693,
     "consensus_count": 1,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "1790c98b-9c66-439a-8a57-9c9d0836f24a",
+    "detection_id": "7ba01e81-0616-4423-9cc0-81ad46cfbfaa",
     "bbox_absolute": [
-      1087.2046661376953,
-      1407.3597326278687,
-      1168.5832977294922,
-      1420.499532699585
+      1087.204849243164,
+      1407.3597373962402,
+      1168.583251953125,
+      1420.4995365142822
     ],
-    "confidence": 0.059002529829740524,
+    "confidence": 0.05900231748819351,
     "query": "grey trailer roof aerial",
     "class_id": 27,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 0.25900252982974054,
+    "quality_score": 0.2590023174881935,
     "consensus_count": 1,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "b67874f4-9137-47dc-94e4-b7b4fa47c63a",
+    "detection_id": "1505dc56-6829-4069-bb71-fca53c9059df",
     "bbox_absolute": [
-      922.4193878173828,
-      453.5717353820801,
+      922.4193725585938,
+      453.5716552734375,
       941.2083892822266,
-      591.09765625
+      591.0976715087891
     ],
-    "confidence": 0.05783650279045105,
+    "confidence": 0.05783681944012642,
     "query": "semi trailer alignment aerial",
     "class_id": 55,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 0.25783650279045106,
+    "quality_score": 0.25783681944012643,
     "consensus_count": 1,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "9824b73b-ddcc-472d-a4ae-c531310f6ec4",
+    "detection_id": "b6f6104b-6b9b-4654-88af-355a922e4b7a",
     "bbox_absolute": [
       832.6743927001953,
       1818.966064453125,
       876.4846954345703,
       1893.3612060546875
     ],
-    "confidence": 0.056898705661296844,
+    "confidence": 0.05689862370491028,
     "query": "yard trailer satellite image",
     "class_id": 33,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 0.25689870566129686,
+    "quality_score": 0.2568986237049103,
     "consensus_count": 1,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "58a06ce2-4edd-4359-a6a0-24595e3487bd",
+    "detection_id": "8acbf67a-06d9-4dc8-a5e7-97863e36ad12",
     "bbox_absolute": [
       923.5626220703125,
-      945.0257720947266,
+      945.0257568359375,
       939.2346801757812,
-      992.6665191650391
+      992.6665344238281
     ],
-    "confidence": 0.05561480671167374,
+    "confidence": 0.055614862591028214,
     "query": "orange shipping container roof",
     "class_id": 64,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 0.25561480671167375,
+    "quality_score": 0.2556148625910282,
     "consensus_count": 1,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "c8284f63-5977-45d6-8a0e-b83f9d8833a0",
+    "detection_id": "30859b5f-f91a-4e13-9b6d-eb02cc0cba93",
     "bbox_absolute": [
       952.0010528564453,
-      490.9731140136719,
-      1112.2631225585938,
-      501.7255554199219
+      490.97314453125,
+      1112.2632446289062,
+      501.72552490234375
     ],
-    "confidence": 0.05451849848031998,
+    "confidence": 0.05451890826225281,
     "query": "grey trailer roof aerial",
     "class_id": 27,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 0.25451849848032,
+    "quality_score": 0.2545189082622528,
     "consensus_count": 1,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "63713c6d-70c9-40c0-bdb6-40307e5d9aef",
+    "detection_id": "5383dba4-0194-49d3-9aa5-432e818cd786",
     "bbox_absolute": [
       1003.5696105957031,
-      492.7308044433594,
-      1067.0636291503906,
+      492.73077392578125,
+      1067.063720703125,
       518.081298828125
     ],
-    "confidence": 0.052866898477077484,
+    "confidence": 0.05286721885204315,
     "query": "trailer bay top\u2011down",
     "class_id": 56,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 0.2528668984770775,
+    "quality_score": 0.25286721885204316,
     "consensus_count": 1,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "c67a2891-c2f9-4f99-8905-d2961cc7902a",
+    "detection_id": "ca9931b1-ef57-4baf-8a0b-25fc7cdb2334",
     "bbox_absolute": [
-      1377.4829711914062,
-      72.15984344482422,
+      1377.4829864501953,
+      72.15986633300781,
       1442.2917785644531,
-      94.18677520751953
+      94.186767578125
     ],
-    "confidence": 0.05284562334418297,
+    "confidence": 0.05284637585282326,
     "query": "grey trailer roof aerial",
     "class_id": 27,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 0.252845623344183,
+    "quality_score": 0.25284637585282327,
     "consensus_count": 1,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "935fa2e3-048c-4d14-a5af-43af56762db2",
+    "detection_id": "b3bff7b3-0396-4d88-9edb-1e4e1a5e4690",
     "bbox_absolute": [
-      1020.81201171875,
-      77.35116577148438,
+      1020.8121337890625,
+      77.35121154785156,
       1039.0196533203125,
-      119.93852233886719
+      119.93854522705078
     ],
-    "confidence": 0.05270447954535484,
+    "confidence": 0.052704766392707825,
     "query": "dry van trailer satellite view",
     "class_id": 9,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 0.25270447954535485,
+    "quality_score": 0.25270476639270784,
     "consensus_count": 1,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "2ed58247-834c-4395-af94-ccdfdb6bbe67",
+    "detection_id": "e5326f44-688d-4c24-9bc9-6f946a7bfa21",
     "bbox_absolute": [
-      916.2915954589844,
-      349.57957458496094,
+      916.2915649414062,
+      349.5795593261719,
       1025.401123046875,
-      448.3858184814453
+      448.3857727050781
     ],
-    "confidence": 0.05243196338415146,
+    "confidence": 0.05243190750479698,
     "query": "semi trailer top view",
     "class_id": 0,
     "ensemble_source": "high_quality",
     "pass_id": 3,
-    "quality_score": 0.25243196338415147,
+    "quality_score": 0.252431907504797,
     "consensus_count": 1,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "57b0f687-6534-479e-8c2f-d4b278d78861",
+    "detection_id": "4a033f96-b97a-482e-b4ff-e029567d5c4f",
     "bbox_absolute": [
       1360.5506896972656,
-      801.7719149589539,
-      1521.7786254882812,
-      993.5719604492188
+      801.7718255519867,
+      1521.7786865234375,
+      993.572021484375
     ],
-    "confidence": 0.05190422385931015,
+    "confidence": 0.051904305815696716,
     "query": "white shipping container top down",
     "class_id": 65,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 0.25190422385931016,
+    "quality_score": 0.2519043058156967,
     "consensus_count": 1,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "d008be97-9863-4f18-b4df-803d4edb7bd9",
+    "detection_id": "9705247a-ed0e-485d-b41a-c2541d48dd72",
     "bbox_absolute": [
-      1457.9271240234375,
-      1413.774585723877,
+      1457.9270629882812,
+      1413.7745914459229,
       1488.0704650878906,
-      1433.8105125427246
+      1433.8105010986328
     ],
-    "confidence": 0.0515630878508091,
+    "confidence": 0.051563821732997894,
     "query": "white box trailer roof",
     "class_id": 8,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 0.2515630878508091,
+    "quality_score": 0.2515638217329979,
     "consensus_count": 1,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "5b469e10-43cf-4c2c-933f-9178346a45f1",
+    "detection_id": "57daaab8-f810-4fb2-bcc7-6eb5edbe84e4",
     "bbox_absolute": [
-      922.7315521240234,
-      1267.9264907836914,
-      1128.9046020507812,
-      1306.6892395019531
+      922.7315216064453,
+      1267.926513671875,
+      1128.9047546386719,
+      1306.689308166504
     ],
-    "confidence": 0.05121368542313576,
+    "confidence": 0.05121414735913277,
     "query": "grey trailer roof aerial",
     "class_id": 27,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 0.25121368542313577,
+    "quality_score": 0.2512141473591328,
     "consensus_count": 1,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   },
   {
-    "detection_id": "0c693a36-04b6-47c4-b949-789d2abab91f",
+    "detection_id": "5f3800a8-abc5-4b73-9a86-bf7f39a4d929",
     "bbox_absolute": [
-      931.5562286376953,
-      951.5924682617188,
+      931.5562744140625,
+      951.5924987792969,
       1122.1211853027344,
-      1016.9901123046875
+      1016.9900817871094
     ],
-    "confidence": 0.05009852722287178,
+    "confidence": 0.05009846016764641,
     "query": "white shipping container top down",
     "class_id": 65,
     "ensemble_source": "fine_grained",
     "pass_id": 1,
-    "quality_score": 0.2500985272228718,
+    "quality_score": 0.2500984601676464,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "4365be7a-a22c-4842-8a46-0be5272fe149",
+    "bbox_absolute": [
+      578.406982421875,
+      1846.0914306640625,
+      615.8532104492188,
+      1868.0587158203125
+    ],
+    "confidence": 0.049013637006282806,
+    "query": "shipping container on chassis",
+    "class_id": 11,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.24901363700628282,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "19899fe6-90bf-4ccb-b41a-753841ac21d7",
+    "bbox_absolute": [
+      990.9494743347168,
+      1644.6604461669922,
+      1017.7718048095703,
+      1676.2908325195312
+    ],
+    "confidence": 0.04870565980672836,
+    "query": "white box trailer roof",
+    "class_id": 8,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.24870565980672837,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "44c79071-99dc-4669-b526-d57c26e1d46f",
+    "bbox_absolute": [
+      300.3467102050781,
+      1751.9861450195312,
+      346.63238525390625,
+      1788.267822265625
+    ],
+    "confidence": 0.048481736332178116,
+    "query": "white box trailer roof",
+    "class_id": 8,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.24848173633217813,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "58e158ae-9f3e-41ff-97a8-d93bb1642bcd",
+    "bbox_absolute": [
+      1254.2120361328125,
+      133.6796417236328,
+      1288.8723754882812,
+      157.5203857421875
+    ],
+    "confidence": 0.04803900048136711,
+    "query": "long cargo box top\u2011down",
+    "class_id": 51,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.24803900048136712,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "d266be5f-8d67-47ce-8b0f-b2666e398289",
+    "bbox_absolute": [
+      1131.0417798757553,
+      1001.0107755661011,
+      1200.1379699707031,
+      1272.5823059082031
+    ],
+    "confidence": 0.04774632304906845,
+    "query": "white box trailer roof",
+    "class_id": 8,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.24774632304906846,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "d8a4b448-0ab4-454e-819d-3bcb7f54dfbe",
+    "bbox_absolute": [
+      1378.7691345214844,
+      64.99983978271484,
+      1452.5756225585938,
+      79.75513458251953
+    ],
+    "confidence": 0.04774455726146698,
+    "query": "grey trailer roof aerial",
+    "class_id": 27,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.247744557261467,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "56648046-66de-4adf-bcee-c4c9bcb4a5d6",
+    "bbox_absolute": [
+      733.3171997070312,
+      1653.7203979492188,
+      765.1630859375,
+      1670.6624755859375
+    ],
+    "confidence": 0.04719945415854454,
+    "query": "container chassis roof view",
+    "class_id": 38,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.24719945415854455,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "0b05edd0-3c2d-4f79-ba5e-1d18df38aad7",
+    "bbox_absolute": [
+      1095.6898803710938,
+      78.01008605957031,
+      1154.2685546875,
+      103.8363037109375
+    ],
+    "confidence": 0.046718351542949677,
+    "query": "grey trailer roof aerial",
+    "class_id": 27,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.2467183515429497,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "11f7c97a-cf44-4f82-a4b9-46801b8c5fa8",
+    "bbox_absolute": [
+      1090.8919677734375,
+      490.3041000366211,
+      1115.6434936523438,
+      519.3828125
+    ],
+    "confidence": 0.04670493304729462,
+    "query": "trailer bay top\u2011down",
+    "class_id": 56,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.24670493304729463,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "de5c1fe4-e5e7-40c1-8d3d-2b20db9459bc",
+    "bbox_absolute": [
+      1425.5488891601562,
+      73.76557922363281,
+      1453.5962524414062,
+      326.83392333984375
+    ],
+    "confidence": 0.046644993126392365,
+    "query": "warehouse strip trailer",
+    "class_id": 26,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.24664499312639238,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "ad017bbb-6b93-413a-bcc9-8863b8dc5768",
+    "bbox_absolute": [
+      383.073486328125,
+      1.4472112655639648,
+      1136.683837890625,
+      78.92791748046875
+    ],
+    "confidence": 0.046298857778310776,
+    "query": "grey trailer roof aerial",
+    "class_id": 27,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.2462988577783108,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "fe7dfe3d-6a48-4d1a-865e-15644e1f44ca",
+    "bbox_absolute": [
+      932.49365234375,
+      738.1931762695312,
+      1148.8810424804688,
+      1017.32470703125
+    ],
+    "confidence": 0.045058637857437134,
+    "query": "white shipping container top down",
+    "class_id": 65,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.24505863785743714,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "886f42e6-d34b-4e3f-8bf9-0ec2ca5dba72",
+    "bbox_absolute": [
+      728.7307438850403,
+      68.1641616821289,
+      1031.0866088867188,
+      99.17257690429688
+    ],
+    "confidence": 0.0448307991027832,
+    "query": "white shipping container top down",
+    "class_id": 65,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.24483079910278321,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "a8488261-971a-4ff5-8b4b-658a1ba529b5",
+    "bbox_absolute": [
+      616.3892822265625,
+      1832.8003540039062,
+      666.9104309082031,
+      1864.760986328125
+    ],
+    "confidence": 0.04456732049584389,
+    "query": "white box trailer roof",
+    "class_id": 8,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.2445673204958439,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "df21bf80-1567-45f5-8030-ec7cfae7cd5d",
+    "bbox_absolute": [
+      1311.4958038330078,
+      1503.3973922729492,
+      1470.8547058105469,
+      1518.382095336914
+    ],
+    "confidence": 0.043258488178253174,
+    "query": "container chassis roof view",
+    "class_id": 38,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.24325848817825318,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "812f6e9d-8df2-47f0-b733-87d0793e5d5e",
+    "bbox_absolute": [
+      199.11660766601562,
+      1856.0513916015625,
+      234.077880859375,
+      1872.0841674804688
+    ],
+    "confidence": 0.04311756044626236,
+    "query": "box trailer roof satellite",
+    "class_id": 43,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.24311756044626237,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "3e95e94f-aa95-49b0-94c8-7763c33be990",
+    "bbox_absolute": [
+      762.7003064155579,
+      1639.9305725097656,
+      805.5252151489258,
+      1654.3518676757812
+    ],
+    "confidence": 0.04289902374148369,
+    "query": "white box trailer roof",
+    "class_id": 8,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.2428990237414837,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "a318ae43-ebe2-4b29-b6f2-19f589848d51",
+    "bbox_absolute": [
+      919.662109375,
+      471.2751159667969,
+      949.8827972412109,
+      756.6292724609375
+    ],
+    "confidence": 0.04273553192615509,
+    "query": "trailer row aerial view",
+    "class_id": 35,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.2427355319261551,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "2095d47e-b0c7-4036-a738-831cc0b16581",
+    "bbox_absolute": [
+      529.1256713867188,
+      1808.75390625,
+      541.5922546386719,
+      1879.019775390625
+    ],
+    "confidence": 0.0426626019179821,
+    "query": "semi trailer alignment aerial",
+    "class_id": 55,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.2426626019179821,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "0c937361-d07f-4b21-8516-a9c2ee76b8c3",
+    "bbox_absolute": [
+      1127.4631958007812,
+      127.67755126953125,
+      1150.2039794921875,
+      158.73951721191406
+    ],
+    "confidence": 0.04192236438393593,
+    "query": "white box trailer roof",
+    "class_id": 8,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.24192236438393594,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "6a3e5e00-5316-4807-96b2-1d7386c89d99",
+    "bbox_absolute": [
+      990.7384033203125,
+      759.5932464599609,
+      1064.9747619628906,
+      791.9714508056641
+    ],
+    "confidence": 0.04167276620864868,
+    "query": "semi\u2011trailer aerial",
+    "class_id": 1,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.2416727662086487,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "b061f028-8396-47a1-951d-6ea39633ba72",
+    "bbox_absolute": [
+      12.27333927154541,
+      1724.9390258789062,
+      91.36412048339844,
+      1739.8978271484375
+    ],
+    "confidence": 0.04143393039703369,
+    "query": "grey trailer roof aerial",
+    "class_id": 27,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.2414339303970337,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "e80a1453-7253-4892-825f-10216f58b713",
+    "bbox_absolute": [
+      931.5414428710938,
+      1069.9080200195312,
+      1150.3162841796875,
+      1101.4030151367188
+    ],
+    "confidence": 0.04071442782878876,
+    "query": "white box trailer roof",
+    "class_id": 8,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.24071442782878877,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "cf378f8b-51df-4308-8dbe-65c176f54531",
+    "bbox_absolute": [
+      1002.2760009765625,
+      585.9115142822266,
+      1063.6233825683594,
+      610.620361328125
+    ],
+    "confidence": 0.04067450389266014,
+    "query": "semi\u2011trailer aerial",
+    "class_id": 1,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.24067450389266015,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "13788f18-944f-4757-9972-7ce91e37e636",
+    "bbox_absolute": [
+      1092.3700866699219,
+      1447.6096878051758,
+      1130.3443603515625,
+      1456.353603363037
+    ],
+    "confidence": 0.040641218423843384,
+    "query": "grey trailer roof aerial",
+    "class_id": 27,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.2406412184238434,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "a452a9d1-d582-414e-b077-2cd4d2ae0be2",
+    "bbox_absolute": [
+      1176.1017150878906,
+      1399.8847097158432,
+      1318.4560546875,
+      1473.150764465332
+    ],
+    "confidence": 0.04043238237500191,
+    "query": "grey trailer roof aerial",
+    "class_id": 27,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.24043238237500192,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "a81e7607-8e55-4a05-928b-f61e1016fb6f",
+    "bbox_absolute": [
+      985.7906951904297,
+      727.0160827636719,
+      994.1885986328125,
+      754.9190063476562
+    ],
+    "confidence": 0.040340907871723175,
+    "query": "semi\u2011trailer aerial",
+    "class_id": 1,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.2403409078717232,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "c24e3f9a-7f3f-46ab-a7ff-69ff6c013d52",
+    "bbox_absolute": [
+      1504.69384765625,
+      824.0974655151367,
+      1530.0498046875,
+      876.0879821777344
+    ],
+    "confidence": 0.04034000262618065,
+    "query": "white box trailer roof",
+    "class_id": 8,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.24034000262618066,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "19b53e11-14d0-4571-874d-a50ddc2ae69f",
+    "bbox_absolute": [
+      922.74951171875,
+      812.8309173583984,
+      959.86328125,
+      831.1735153198242
+    ],
+    "confidence": 0.04025551304221153,
+    "query": "grey trailer roof aerial",
+    "class_id": 27,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.24025551304221154,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "fdfac21a-12ad-4e8c-82ad-e46b6e104c88",
+    "bbox_absolute": [
+      1425.5715026855469,
+      998.9206045866013,
+      1451.7666015625,
+      1049.2083625793457
+    ],
+    "confidence": 0.040248848497867584,
+    "query": "white box trailer roof",
+    "class_id": 8,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.2402488484978676,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "ab5779b0-30a0-4644-900e-640533266be8",
+    "bbox_absolute": [
+      928.4727172851562,
+      1145.7825293540955,
+      1149.0247802734375,
+      1186.3307418823242
+    ],
+    "confidence": 0.04020470008254051,
+    "query": "grey trailer roof aerial",
+    "class_id": 27,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.24020470008254052,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "1ca5bf88-4666-409e-bc04-32ca976b10f6",
+    "bbox_absolute": [
+      3.3461480140686035,
+      1147.4215965270996,
+      32.62807846069336,
+      1331.2431945800781
+    ],
+    "confidence": 0.039723366498947144,
+    "query": "semi trailer alignment aerial",
+    "class_id": 55,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.23972336649894715,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "ead02533-3b46-40cf-9b52-234bd48b2027",
+    "bbox_absolute": [
+      541.3816223144531,
+      1847.341064453125,
+      583.6966247558594,
+      1866.89453125
+    ],
+    "confidence": 0.03918801248073578,
+    "query": "roof of cargo trailer",
+    "class_id": 44,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.2391880124807358,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "340df608-77d1-4b2c-9a5e-bebc160f5935",
+    "bbox_absolute": [
+      543.04248046875,
+      1816.3104858398438,
+      583.304931640625,
+      1836.31689453125
+    ],
+    "confidence": 0.039037272334098816,
+    "query": "red shipping container aerial view",
+    "class_id": 60,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.23903727233409883,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "8e7d4b0e-3da6-47b0-a08d-cda3abb7277d",
+    "bbox_absolute": [
+      923.2230072021484,
+      580.0914154052734,
+      946.8175201416016,
+      615.4512939453125
+    ],
+    "confidence": 0.038904137909412384,
+    "query": "blue shipping container satellite",
+    "class_id": 61,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.2389041379094124,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "3fbd0835-4f2a-4373-8dc4-2a6d129350a1",
+    "bbox_absolute": [
+      1130.9472200870514,
+      114.0527572631836,
+      1152.0451564788818,
+      126.53418731689453
+    ],
+    "confidence": 0.038903363049030304,
+    "query": "container chassis roof view",
+    "class_id": 38,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.23890336304903032,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "c22df2a1-2390-4de6-8bea-5ba5a1fd74d0",
+    "bbox_absolute": [
+      921.3150634765625,
+      767.4863090515137,
+      963.5560302734375,
+      816.4361267089844
+    ],
+    "confidence": 0.03883511945605278,
+    "query": "semi\u2011trailer without truck aerial",
+    "class_id": 41,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.2388351194560528,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "aaa2b8bf-1947-4388-a21f-c3d8a63b08bb",
+    "bbox_absolute": [
+      1317.508773803711,
+      1412.9183502197266,
+      1439.3932495117188,
+      1430.198745727539
+    ],
+    "confidence": 0.03872998058795929,
+    "query": "semi trailer alignment aerial",
+    "class_id": 55,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.2387299805879593,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "343ce392-69cc-4e94-bc0b-1a5ef01708c1",
+    "bbox_absolute": [
+      1395.3387451171875,
+      263.48089599609375,
+      1435.7073974609375,
+      276.9388427734375
+    ],
+    "confidence": 0.03858193755149841,
+    "query": "grey trailer roof aerial",
+    "class_id": 27,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.23858193755149842,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "336349ec-23b1-4612-949c-5254b6f9be32",
+    "bbox_absolute": [
+      467.53633880615234,
+      1834.315673828125,
+      501.5811080932617,
+      1848.7661743164062
+    ],
+    "confidence": 0.038475751876831055,
+    "query": "white box trailer roof",
+    "class_id": 8,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.23847575187683107,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "e5dddcdd-3cdb-4841-b3c2-2e987c1a1506",
+    "bbox_absolute": [
+      1249.8971557617188,
+      67.46772766113281,
+      1397.451904296875,
+      83.2298583984375
+    ],
+    "confidence": 0.038275036960840225,
+    "query": "grey trailer roof aerial",
+    "class_id": 27,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.23827503696084024,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "2ecdeab5-e7c2-42aa-92b7-0e686b99134c",
+    "bbox_absolute": [
+      1019.9962768554688,
+      762.5967102050781,
+      1029.2005920410156,
+      790.1297607421875
+    ],
+    "confidence": 0.03815131634473801,
+    "query": "semi\u2011trailer aerial",
+    "class_id": 1,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.23815131634473802,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "1082ec2e-ecae-49e0-a0e3-30e14cb5a027",
+    "bbox_absolute": [
+      1130.7159570455551,
+      81.41651153564453,
+      1190.3688011169434,
+      100.92224884033203
+    ],
+    "confidence": 0.03810856118798256,
+    "query": "white box trailer roof",
+    "class_id": 8,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.23810856118798257,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "3368f863-7cb0-4f0c-b818-10f5a1e164b2",
+    "bbox_absolute": [
+      5.400312423706055,
+      1784.634033203125,
+      118.17288208007812,
+      1802.2952880859375
+    ],
+    "confidence": 0.03802771121263504,
+    "query": "grey trailer roof aerial",
+    "class_id": 27,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.23802771121263505,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "6118060c-8227-4cae-84a2-6e0b45a2a6d6",
+    "bbox_absolute": [
+      927.5533447265625,
+      1173.22119140625,
+      1147.27587890625,
+      1226.4132385253906
+    ],
+    "confidence": 0.03751204535365105,
+    "query": "grey trailer roof aerial",
+    "class_id": 27,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.23751204535365106,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "6678af32-ddc3-4599-8a91-1d5c2cc1cccc",
+    "bbox_absolute": [
+      805.4600067138672,
+      1651.2171936035156,
+      835.783203125,
+      1675.2574768066406
+    ],
+    "confidence": 0.0374164842069149,
+    "query": "container chassis roof view",
+    "class_id": 38,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.2374164842069149,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "d5a554bb-c864-4ba1-9dca-200f37293376",
+    "bbox_absolute": [
+      689.2022705078125,
+      1895.89501953125,
+      763.0769653320312,
+      1911.6375732421875
+    ],
+    "confidence": 0.03704554960131645,
+    "query": "trailer row aerial view",
+    "class_id": 35,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.23704554960131646,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "5ed36ae1-215c-4882-97a7-c327e5aebcc3",
+    "bbox_absolute": [
+      1132.1608600616455,
+      1264.458969116211,
+      1202.701774597168,
+      1273.2920761108398
+    ],
+    "confidence": 0.036717772483825684,
+    "query": "semi trailer alignment aerial",
+    "class_id": 55,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.2367177724838257,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "b6c60fd7-70c4-4202-b790-39aef828d16e",
+    "bbox_absolute": [
+      1377.07470703125,
+      49.13239288330078,
+      1451.9839477539062,
+      73.71183013916016
+    ],
+    "confidence": 0.03658099099993706,
+    "query": "truck trailer loading dock",
+    "class_id": 16,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.23658099099993707,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "e5931dc3-04ee-4e58-bd26-c140b0a1ae30",
+    "bbox_absolute": [
+      519.8538513183594,
+      1804.7761840820312,
+      540.3173217773438,
+      1831.0586547851562
+    ],
+    "confidence": 0.036019083112478256,
+    "query": "grey trailer roof aerial",
+    "class_id": 27,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.23601908311247827,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "e5c68872-f0dd-4d96-a44a-ae784cf43c67",
+    "bbox_absolute": [
+      2.6556758880615234,
+      1152.8861846923828,
+      113.96820831298828,
+      1897.0087280273438
+    ],
+    "confidence": 0.03577927127480507,
+    "query": "semi trailer alignment aerial",
+    "class_id": 55,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.23577927127480508,
     "consensus_count": 1,
     "image_path": "test_images/images/full/losangeles_8009013078.png"
   }

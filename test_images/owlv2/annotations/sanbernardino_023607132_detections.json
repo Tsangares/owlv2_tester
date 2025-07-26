@@ -1,6 +1,6 @@
 [
   {
-    "detection_id": "8c2c17f4-15ee-45c2-aa0d-502bf3922daa",
+    "detection_id": "9a837e3c-0828-42f0-a95d-eb56d343387a",
     "bbox_absolute": [
       655.2920532226562,
       4.523216247558594,
@@ -17,7 +17,24 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "f17cecf9-2e57-41ec-9205-b15d198a27ae",
+    "detection_id": "e0d7e78a-8e57-4381-b8d2-a53bea18e67a",
+    "bbox_absolute": [
+      83.48638916015625,
+      880.4972229003906,
+      155.52294921875,
+      942.8691711425781
+    ],
+    "confidence": 0.05099722743034363,
+    "query": "semi\u2011trailer aerial",
+    "class_id": 1,
+    "ensemble_source": "high_quality",
+    "pass_id": 3,
+    "quality_score": 0.8305983364582062,
+    "consensus_count": 2,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "20a96189-cca6-47e2-8d32-58d48a75620d",
     "bbox_absolute": [
       1096.807113647461,
       42.609901428222656,
@@ -34,7 +51,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "d53ca4c8-be48-478c-b0ca-c4ec52998449",
+    "detection_id": "513f784b-5079-40cb-963a-b22eb93fd71c",
     "bbox_absolute": [
       1739.2991943359375,
       134.9818878173828,
@@ -51,7 +68,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "7deed214-5b71-4cb8-a605-a6eb5f845aca",
+    "detection_id": "8ef8282e-3d48-47ec-997a-8be8ebe262a3",
     "bbox_absolute": [
       1430.5886840820312,
       323.1501770019531,
@@ -68,7 +85,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "e4a49b3a-f5cc-45b7-bd69-c74c346cdf89",
+    "detection_id": "17ad5947-4c5d-4392-afd5-eb8350c4e482",
     "bbox_absolute": [
       1496.7386779785156,
       236.63243103027344,
@@ -85,7 +102,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "f78dca03-a03d-4406-b133-660a222756dc",
+    "detection_id": "11950b5f-a4f2-497e-8518-7f562c0b1c07",
     "bbox_absolute": [
       2199.830108642578,
       491.2664566040039,
@@ -102,7 +119,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "af81c33e-030c-4560-9052-feaf026503a3",
+    "detection_id": "9dfa5064-c052-4be7-bcb4-b86b367d9a50",
     "bbox_absolute": [
       1424.39013671875,
       44.01605224609375,
@@ -119,7 +136,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "6cc98677-514b-44ec-91af-96c557d90c82",
+    "detection_id": "16d2d471-1900-4a7c-aaae-1efd5c0eabd0",
     "bbox_absolute": [
       1569.5505981445312,
       21.918441772460938,
@@ -136,7 +153,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "5bd1ef96-baf7-4d42-be14-81b26230b8f8",
+    "detection_id": "ccba5e16-e24e-4e90-93fc-0191a545735d",
     "bbox_absolute": [
       1096.3810424804688,
       159.79827880859375,
@@ -153,7 +170,24 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "0558d2b0-58c6-42d2-81d4-916a62912724",
+    "detection_id": "550b74d1-2674-457a-8789-9a3429de49ff",
+    "bbox_absolute": [
+      1573.2476806640625,
+      173.0302734375,
+      1626.7448120117188,
+      289.5692138671875
+    ],
+    "confidence": 0.0938187912106514,
+    "query": "white box trailer roof",
+    "class_id": 8,
+    "ensemble_source": "conservative",
+    "pass_id": 2,
+    "quality_score": 0.7562912747263908,
+    "consensus_count": 2,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "fab206bb-d6eb-4689-bdec-79354c240929",
     "bbox_absolute": [
       956.6798095703125,
       312.26556396484375,
@@ -170,7 +204,24 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "e6579424-84ad-4d71-8c9a-30b4572de246",
+    "detection_id": "e7884da0-7d3a-45ac-9f55-35515f471bd5",
+    "bbox_absolute": [
+      1567.2379760742188,
+      84.54051208496094,
+      1742.0685424804688,
+      173.68821716308594
+    ],
+    "confidence": 0.0854322761297226,
+    "query": "white box trailer roof",
+    "class_id": 8,
+    "ensemble_source": "conservative",
+    "pass_id": 2,
+    "quality_score": 0.7512593656778336,
+    "consensus_count": 2,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "b8e99e69-9034-43a5-a18d-18f0584adcf1",
     "bbox_absolute": [
       1918.3745079040527,
       57.4132194519043,
@@ -187,7 +238,24 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "ee7c8523-5956-4a20-bed2-8bc765b67fe5",
+    "detection_id": "ac236214-e85b-4a02-a87b-5544108697c1",
+    "bbox_absolute": [
+      518.6256790161133,
+      807.2863159179688,
+      624.5176086425781,
+      834.5006713867188
+    ],
+    "confidence": 0.08224222809076309,
+    "query": "loading bay trailer roof",
+    "class_id": 24,
+    "ensemble_source": "conservative",
+    "pass_id": 2,
+    "quality_score": 0.7493453368544578,
+    "consensus_count": 2,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "4ac94d3d-3413-46e8-a6f3-d95b6b827acc",
     "bbox_absolute": [
       907.7681884765625,
       7.2285261154174805,
@@ -204,7 +272,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "16e06262-4429-448c-a1d6-e97251bd8c54",
+    "detection_id": "14b40432-617a-4654-b341-e1c4ba329bbf",
     "bbox_absolute": [
       1024.6915760040283,
       5.785621643066406,
@@ -221,7 +289,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "17805d42-acdc-4bc8-a76c-38c2196ef38e",
+    "detection_id": "52065ff4-de8b-4030-aac5-5020b5f5fad3",
     "bbox_absolute": [
       1447.48291015625,
       289.0539722442627,
@@ -238,7 +306,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "cc68e730-7c0b-4338-889f-10926ad5b2ab",
+    "detection_id": "8a37ccf6-ad3a-4b23-afa0-808822ae6433",
     "bbox_absolute": [
       727.572998046875,
       271.8655605316162,
@@ -255,7 +323,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "37554865-e5b8-4a13-bfd9-b71badeb54cb",
+    "detection_id": "4618c95a-8731-423f-a9cb-5c66e0688d8a",
     "bbox_absolute": [
       1044.3773498535156,
       271.9962692260742,
@@ -272,7 +340,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "dd34b5ba-9e5b-4bfc-8249-5a7b2ea3fd5b",
+    "detection_id": "2a3b873d-639a-4729-a86c-b1f4897d076a",
     "bbox_absolute": [
       1402.0895385742188,
       271.95606327056885,
@@ -289,7 +357,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "8d5382c4-2a68-45dc-96e4-06170915b114",
+    "detection_id": "0012fc66-5cb5-4212-9238-d9ca9045e177",
     "bbox_absolute": [
       1092.5086669921875,
       39.4595947265625,
@@ -306,7 +374,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "53e84b25-763d-4e13-93ab-7b4d5dd3ce6a",
+    "detection_id": "e56a351f-b69b-43f1-8721-71f34fa31809",
     "bbox_absolute": [
       2224.7011108398438,
       207.35791015625,
@@ -323,24 +391,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "d448a4ff-c44d-4587-baa5-eec932ba4be4",
-    "bbox_absolute": [
-      1573.2476806640625,
-      173.0302734375,
-      1626.7448120117188,
-      289.5692138671875
-    ],
-    "confidence": 0.0938187912106514,
-    "query": "white box trailer roof",
-    "class_id": 8,
-    "ensemble_source": "conservative",
-    "pass_id": 2,
-    "quality_score": 0.2938187912106514,
-    "consensus_count": 1,
-    "image_path": "test_images/images/full/sanbernardino_023607132.png"
-  },
-  {
-    "detection_id": "1df25f06-4fab-432f-934b-358fc2d887b0",
+    "detection_id": "584c29f6-971e-4ce1-be58-8bfad6ce43d8",
     "bbox_absolute": [
       1610.4942016601562,
       173.9654998779297,
@@ -357,7 +408,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "a4b83ef4-4c64-4472-a586-b6790e5ed333",
+    "detection_id": "e1631a8b-7841-4467-a60d-ed3a104a6b48",
     "bbox_absolute": [
       1468.6839599609375,
       756.7418212890625,
@@ -374,24 +425,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "65212c22-8c77-431a-b6e1-dda6df09d574",
-    "bbox_absolute": [
-      1567.2379760742188,
-      84.54051208496094,
-      1742.0685424804688,
-      173.68821716308594
-    ],
-    "confidence": 0.0854322761297226,
-    "query": "white box trailer roof",
-    "class_id": 8,
-    "ensemble_source": "conservative",
-    "pass_id": 2,
-    "quality_score": 0.2854322761297226,
-    "consensus_count": 1,
-    "image_path": "test_images/images/full/sanbernardino_023607132.png"
-  },
-  {
-    "detection_id": "1e5138fb-d3b6-42ea-a090-bc5bb38ad014",
+    "detection_id": "aea0e5f4-b9f2-4504-9068-8d0e58c41c80",
     "bbox_absolute": [
       280.7479248046875,
       20.317893981933594,
@@ -408,7 +442,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "8d5b3bb9-8c56-4a61-8933-4387dc63953c",
+    "detection_id": "0bbcb03e-e026-43c3-8346-bec136cfe9ee",
     "bbox_absolute": [
       1645.0321044921875,
       274.9992160797119,
@@ -425,24 +459,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "9f9b4703-1999-4d8b-a1b6-6ba3e71129c3",
-    "bbox_absolute": [
-      518.6256790161133,
-      807.2863159179688,
-      624.5176086425781,
-      834.5006713867188
-    ],
-    "confidence": 0.08224222809076309,
-    "query": "loading bay trailer roof",
-    "class_id": 24,
-    "ensemble_source": "conservative",
-    "pass_id": 2,
-    "quality_score": 0.2822422280907631,
-    "consensus_count": 1,
-    "image_path": "test_images/images/full/sanbernardino_023607132.png"
-  },
-  {
-    "detection_id": "bfad5345-2310-4209-88c5-6eb5ca6d05e2",
+    "detection_id": "2b30df8a-3953-4313-a2ca-645358f66ffd",
     "bbox_absolute": [
       768.0127272605896,
       392.54449462890625,
@@ -459,7 +476,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "1400d10d-71b7-4fdc-9cc8-6e8a5d13ed2c",
+    "detection_id": "65fde5b6-ee84-4517-99ea-328366b19bf0",
     "bbox_absolute": [
       893.0328140258789,
       158.12965393066406,
@@ -476,7 +493,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "c5df5060-b55b-4528-8224-8622edb8749d",
+    "detection_id": "9a555513-d351-4071-9675-d0abbca58b5e",
     "bbox_absolute": [
       737.62109375,
       431.90330505371094,
@@ -493,7 +510,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "0bd5a6b3-8141-432f-a79d-85cd7bd16d4d",
+    "detection_id": "ea875ff5-84ae-4c99-9f30-5deb64521558",
     "bbox_absolute": [
       1484.5931396484375,
       896.485107421875,
@@ -510,7 +527,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "ddc3c350-f92c-4402-afec-32710ba23907",
+    "detection_id": "6c2a9a42-5e87-4609-b6d2-faf75f637295",
     "bbox_absolute": [
       1351.3864440917969,
       885.0984497070312,
@@ -527,7 +544,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "efcd578e-8e69-44fc-b220-2b9027846b1e",
+    "detection_id": "50e77888-a2d9-4a4f-9fa0-d7810805d05c",
     "bbox_absolute": [
       1551.1792793273926,
       757.5544128417969,
@@ -544,7 +561,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "984267cc-f0a9-4fb0-85e9-d372d717520b",
+    "detection_id": "66511f65-19be-4bd2-ad8d-3b804d1fde47",
     "bbox_absolute": [
       2200.1834411621094,
       531.1761627197266,
@@ -561,7 +578,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "ffe98809-5a3f-458d-b1af-acbd482d0a69",
+    "detection_id": "393db2a5-a8ff-4a2f-b3ab-7603a842a535",
     "bbox_absolute": [
       1434.4659423828125,
       346.3715286254883,
@@ -578,7 +595,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "d2ecb06b-b053-4141-8f30-ed0051a7a37f",
+    "detection_id": "1fdbc597-0f54-4cbe-b409-e31edbca6745",
     "bbox_absolute": [
       1088.3919982910156,
       274.3655939102173,
@@ -595,7 +612,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "a6bfba85-13c1-4cfd-9283-1dc255607f16",
+    "detection_id": "9e1642b0-fa6f-4a68-8d72-09984b5d9342",
     "bbox_absolute": [
       1549.4059801101685,
       951.59326171875,
@@ -612,7 +629,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "71eba267-c040-4708-aa6b-9117a2ac8d77",
+    "detection_id": "3634af6e-ee2d-4945-a646-fbdc8a6fdab4",
     "bbox_absolute": [
       2223.8243408203125,
       200.0612735748291,
@@ -629,7 +646,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "5e7aec1d-95fc-4296-9d6b-fd1248ee5b56",
+    "detection_id": "4d0602db-4c3e-425a-8327-32515667354c",
     "bbox_absolute": [
       809.5419311523438,
       54.45545196533203,
@@ -646,7 +663,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "1139c3a7-5381-4b12-ac39-38e4cb099dab",
+    "detection_id": "db638e02-c27b-441e-a6c3-df175dd9428b",
     "bbox_absolute": [
       1917.8433113098145,
       344.3474426269531,
@@ -663,7 +680,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "a82cf7c7-c034-4e09-998c-3312ec10ce48",
+    "detection_id": "939579d4-6310-4761-ba44-b027585022d7",
     "bbox_absolute": [
       95.11668395996094,
       150.2337188720703,
@@ -680,7 +697,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "e70c47b0-ab0c-4fef-81cc-7b1592b3acc3",
+    "detection_id": "9e8521af-7c40-406b-acac-26bfba093a80",
     "bbox_absolute": [
       768.2763290405273,
       445.8148498535156,
@@ -697,7 +714,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "47fdf40f-0ea2-4d09-865c-bf9cdcdafc8a",
+    "detection_id": "30f0e461-e8ea-4bc1-a73e-9b2e129127b9",
     "bbox_absolute": [
       1659.6607055664062,
       200.0483512878418,
@@ -714,7 +731,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "f41f6cbc-d6e4-4696-8d7a-5c32a3877273",
+    "detection_id": "a45a650d-c373-49fc-bfb4-10d37de1e811",
     "bbox_absolute": [
       2160.206069946289,
       922.1902770996094,
@@ -731,7 +748,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "05b0eabf-2f09-40b6-8b37-c1656f83e40a",
+    "detection_id": "5f783bfe-6783-4077-9ecb-0bdb898c04ce",
     "bbox_absolute": [
       1525.6980590820312,
       726.2878265380859,
@@ -748,7 +765,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "be384431-1e64-4e0b-84e7-179d8a8c9225",
+    "detection_id": "b78cd165-ca4f-4bb1-9b11-e0200c9bd379",
     "bbox_absolute": [
       1625.7794342041016,
       555.3053894042969,
@@ -765,7 +782,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "66ccba64-b07a-4292-8869-5f9a090a01c4",
+    "detection_id": "7e29e479-422d-4939-af02-c42b900cc215",
     "bbox_absolute": [
       482.4580078125,
       230.10641479492188,
@@ -782,7 +799,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "4d5c2ce1-a465-4f99-bc5d-79aad6717572",
+    "detection_id": "a88e9938-97c9-4da8-9ff7-489aa6c6b4ae",
     "bbox_absolute": [
       1086.2463989257812,
       271.67936086654663,
@@ -799,7 +816,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "1df0be21-c67f-45c2-844b-0c7e0db44389",
+    "detection_id": "677a7e0a-7fa5-4e18-8e58-847e0acc0739",
     "bbox_absolute": [
       384.7459259033203,
       683.4663696289062,
@@ -816,7 +833,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "a4cc7b25-cef0-4a05-9a4a-f4d52ad74b58",
+    "detection_id": "8d7df2c4-f1aa-430f-a807-730f32805ae6",
     "bbox_absolute": [
       811.6710739135742,
       328.552490234375,
@@ -833,7 +850,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "dad66f46-619d-47b2-b2fe-4071424556f3",
+    "detection_id": "df2000d4-676a-4e7e-bde1-a1fb606a69f4",
     "bbox_absolute": [
       1716.849093914032,
       541.4983062744141,
@@ -850,7 +867,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "63737cb7-80ed-4e32-ad79-d8e80d79a806",
+    "detection_id": "f49b7251-54e7-4295-8201-b1c56f2783f8",
     "bbox_absolute": [
       1082.1326904296875,
       4.779506206512451,
@@ -867,7 +884,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "c620425d-7e2c-412e-9c69-4e9497ea9f97",
+    "detection_id": "e8aa24f9-363e-43e5-837a-073ffa96921e",
     "bbox_absolute": [
       672.0274658203125,
       404.5648498535156,
@@ -884,7 +901,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "350c6e07-6ec1-4a0c-9ff8-ead4fb974620",
+    "detection_id": "787e95ea-71ea-4bf1-82c2-0fb88235879c",
     "bbox_absolute": [
       815.4249572753906,
       363.6254577636719,
@@ -901,7 +918,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "bb9a1e88-cfd8-454a-900d-d845b5581691",
+    "detection_id": "df1e9323-f4fd-4b68-971a-abca8be6dafd",
     "bbox_absolute": [
       1502.9261474609375,
       954.1240234375,
@@ -918,7 +935,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "a408f652-aace-471a-8040-d62d4ba7a37a",
+    "detection_id": "51de88c0-4c51-498d-8bde-e8248254140a",
     "bbox_absolute": [
       565.8772888183594,
       965.6077880859375,
@@ -935,7 +952,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "a5130db6-55b1-4947-98a4-aa9d4509c751",
+    "detection_id": "e5e30355-a314-4aa3-90f6-653b58eed82d",
     "bbox_absolute": [
       2097.4611053466797,
       142.8309326171875,
@@ -952,7 +969,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "d7cc7505-59fb-432a-b999-53c6ce900b95",
+    "detection_id": "cfce3c1b-ccb1-4b0c-b2f4-0111a43b61b9",
     "bbox_absolute": [
       957.228515625,
       76.98670196533203,
@@ -969,7 +986,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "f2bb32de-9ede-41af-a792-d2361cff5bee",
+    "detection_id": "20e57d93-70ce-425f-b9b1-48c7e2f1d38e",
     "bbox_absolute": [
       1837.5848388671875,
       273.07498359680176,
@@ -986,7 +1003,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "bb0c6ab8-dc6d-4014-8a06-49b64fc4f415",
+    "detection_id": "58fbb37d-8258-4d31-94a0-ce0f75b21223",
     "bbox_absolute": [
       51.111656188964844,
       387.7329406738281,
@@ -1003,7 +1020,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "60e050fc-8577-4f3a-8b61-8178608c7c10",
+    "detection_id": "a8ce8ce5-0595-41b7-b03b-3cdc6eee2019",
     "bbox_absolute": [
       2218.6813354492188,
       271.87210154533386,
@@ -1020,7 +1037,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "12b523b2-2401-4b35-b88d-22dc9e911254",
+    "detection_id": "cd041be8-dd83-4912-91c6-55c24fd96077",
     "bbox_absolute": [
       1563.7476081848145,
       252.6123046875,
@@ -1037,7 +1054,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "81b93b0c-4adc-4818-89b4-4afe21fe4887",
+    "detection_id": "c869886c-e2a6-477b-8490-d0d53ee8b3dd",
     "bbox_absolute": [
       383.8446464538574,
       539.9235229492188,
@@ -1054,7 +1071,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "f55ee814-9130-47d4-a395-1283690acc8e",
+    "detection_id": "aa032b03-d842-4790-a934-5dc90e91ed07",
     "bbox_absolute": [
       1518.4335016012192,
       740.7814331054688,
@@ -1071,24 +1088,7 @@
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   },
   {
-    "detection_id": "4142dda0-ce90-4942-ac5e-2df9b8ac7ddc",
-    "bbox_absolute": [
-      83.48638916015625,
-      880.4972229003906,
-      155.52294921875,
-      942.8691711425781
-    ],
-    "confidence": 0.05099722743034363,
-    "query": "semi\u2011trailer aerial",
-    "class_id": 1,
-    "ensemble_source": "high_quality",
-    "pass_id": 3,
-    "quality_score": 0.25099722743034364,
-    "consensus_count": 1,
-    "image_path": "test_images/images/full/sanbernardino_023607132.png"
-  },
-  {
-    "detection_id": "90ae2781-a0d2-4b4a-a893-b453d0ed7a14",
+    "detection_id": "4882e347-da1f-4f74-8053-4e68fc09cee6",
     "bbox_absolute": [
       644.8485717773438,
       45.814918518066406,
@@ -1101,6 +1101,601 @@
     "ensemble_source": "fine_grained",
     "pass_id": 1,
     "quality_score": 0.2509047582745552,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "6c23128c-2eb2-49bb-97cb-7b85d4691492",
+    "bbox_absolute": [
+      736.163818359375,
+      384.0991516113281,
+      784.0606689453125,
+      406.8073425292969
+    ],
+    "confidence": 0.049425605684518814,
+    "query": "long cargo box top\u2011down",
+    "class_id": 51,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.24942560568451883,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "736c466c-e2da-45b8-b67d-2f45ff4e97eb",
+    "bbox_absolute": [
+      1633.9386138916016,
+      866.2068481445312,
+      1918.75341796875,
+      890.5835571289062
+    ],
+    "confidence": 0.04902320355176926,
+    "query": "grey trailer roof aerial",
+    "class_id": 27,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.24902320355176927,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "1e378802-1517-4b7e-980c-54014ede8b8f",
+    "bbox_absolute": [
+      1519.9178771972656,
+      935.7347412109375,
+      1635.4484252929688,
+      962.5450439453125
+    ],
+    "confidence": 0.04832190275192261,
+    "query": "grey trailer roof aerial",
+    "class_id": 27,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.24832190275192262,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "d13ad647-4c7b-4dae-b47d-44a69faa6b02",
+    "bbox_absolute": [
+      2081.6779174804688,
+      271.87277460098267,
+      2267.2027587890625,
+      300.0158863067627
+    ],
+    "confidence": 0.048310745507478714,
+    "query": "white box trailer roof",
+    "class_id": 8,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.24831074550747873,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "377f7d43-3ba0-489a-a0a5-6ed31d811aab",
+    "bbox_absolute": [
+      382.9694023132324,
+      755.1505126953125,
+      503.18204498291016,
+      770.4119873046875
+    ],
+    "confidence": 0.04714846611022949,
+    "query": "white box trailer roof",
+    "class_id": 8,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.2471484661102295,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "58c01235-33a9-49fb-9837-72e89e87a7f9",
+    "bbox_absolute": [
+      1594.3750457763672,
+      690.0130615234375,
+      1618.1169052124023,
+      736.6292419433594
+    ],
+    "confidence": 0.046873923391103745,
+    "query": "trailer bay top\u2011down",
+    "class_id": 56,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.24687392339110376,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "b916bf73-9a1b-406d-be7f-74eb9f9c9ba0",
+    "bbox_absolute": [
+      899.7208251953125,
+      156.25665283203125,
+      946.9682006835938,
+      168.43284606933594
+    ],
+    "confidence": 0.04652426764369011,
+    "query": "long cargo box top\u2011down",
+    "class_id": 51,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.24652426764369012,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "f5539d0d-a8df-4443-9446-b1a74777207e",
+    "bbox_absolute": [
+      1562.2746658325195,
+      399.87933337688446,
+      1624.4373397827148,
+      417.2767028808594
+    ],
+    "confidence": 0.04648186266422272,
+    "query": "long cargo box top\u2011down",
+    "class_id": 51,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.24648186266422273,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "cb7a6c07-8da9-40ad-bfac-6771124a2500",
+    "bbox_absolute": [
+      48.219520568847656,
+      619.267578125,
+      112.39595031738281,
+      685.8800659179688
+    ],
+    "confidence": 0.046405743807554245,
+    "query": "white box trailer roof",
+    "class_id": 8,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.24640574380755426,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "89dc31fe-6d3d-4be1-8d95-12f219994393",
+    "bbox_absolute": [
+      1542.2768287658691,
+      772.8827362060547,
+      1582.2776641845703,
+      794.4853668212891
+    ],
+    "confidence": 0.045840073376894,
+    "query": "container chassis roof view",
+    "class_id": 38,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.245840073376894,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "c4c7e4bc-ee3c-4a58-a3ea-b42418a79b2b",
+    "bbox_absolute": [
+      1854.9873657226562,
+      333.7977066040039,
+      1914.6442260742188,
+      347.8490905761719
+    ],
+    "confidence": 0.04569279029965401,
+    "query": "white box trailer roof",
+    "class_id": 8,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.24569279029965402,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "a7a79cc1-0154-4a7e-8589-d782f1c0928c",
+    "bbox_absolute": [
+      1662.1689147949219,
+      163.60049438476562,
+      1695.8499755859375,
+      200.778076171875
+    ],
+    "confidence": 0.04427313804626465,
+    "query": "box trailer roof satellite",
+    "class_id": 43,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.24427313804626466,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "feb14488-1944-44cc-9dfb-89304f018f78",
+    "bbox_absolute": [
+      549.4949035644531,
+      76.47908020019531,
+      570.4908905029297,
+      97.25672149658203
+    ],
+    "confidence": 0.04270792379975319,
+    "query": "long cargo box top\u2011down",
+    "class_id": 51,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.2427079237997532,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "270a3075-1513-4d45-b979-066005fe2b83",
+    "bbox_absolute": [
+      1622.512954711914,
+      798.7192077636719,
+      1922.0329895019531,
+      821.7195434570312
+    ],
+    "confidence": 0.04250405728816986,
+    "query": "trailer bay top\u2011down",
+    "class_id": 56,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.24250405728816987,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "042596e5-31b6-4819-96cf-2d94b35c169e",
+    "bbox_absolute": [
+      1438.7606201171875,
+      378.4882507324219,
+      1478.633544921875,
+      419.5301513671875
+    ],
+    "confidence": 0.042313504964113235,
+    "query": "long cargo box top\u2011down",
+    "class_id": 51,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.24231350496411325,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "0218f517-ae7a-41bc-b30c-e7675c33ced9",
+    "bbox_absolute": [
+      2056.243209838867,
+      37.89362335205078,
+      2317.773895263672,
+      151.30593872070312
+    ],
+    "confidence": 0.04230275750160217,
+    "query": "white shipping container top down",
+    "class_id": 65,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.24230275750160218,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "1e64c5c3-7eed-4598-a7ec-163571f9fc00",
+    "bbox_absolute": [
+      157.9949188232422,
+      320.90869522094727,
+      524.8607788085938,
+      356.8136291503906
+    ],
+    "confidence": 0.041501402854919434,
+    "query": "trailer bay top\u2011down",
+    "class_id": 56,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.24150140285491944,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "1ba3765d-4b08-4555-a481-ab252ac04121",
+    "bbox_absolute": [
+      1550.069980621338,
+      613.8345184326172,
+      1677.2858123779297,
+      625.095495223999
+    ],
+    "confidence": 0.04081059247255325,
+    "query": "grey trailer roof aerial",
+    "class_id": 27,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.24081059247255326,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "47c894f4-b586-4197-a97e-c4b84a79fe65",
+    "bbox_absolute": [
+      -0.36094236373901367,
+      10.011270523071289,
+      41.893951416015625,
+      33.092002868652344
+    ],
+    "confidence": 0.04073752090334892,
+    "query": "white box trailer roof",
+    "class_id": 8,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.24073752090334893,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "f91a2bd2-b997-43d6-8e47-a5a3a0a36cfb",
+    "bbox_absolute": [
+      1093.0690612792969,
+      271.9047586917877,
+      1452.9882202148438,
+      292.6564483642578
+    ],
+    "confidence": 0.04066339135169983,
+    "query": "white shipping container top down",
+    "class_id": 65,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.24066339135169984,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "7c7bab1c-f496-4dc2-bde6-212f1bfdee60",
+    "bbox_absolute": [
+      0.11832475662231445,
+      168.7086639404297,
+      45.634613037109375,
+      338.75567626953125
+    ],
+    "confidence": 0.0402652882039547,
+    "query": "container chassis roof view",
+    "class_id": 38,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.2402652882039547,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "0ac29c6c-2c22-436b-96e3-3027ec541aa3",
+    "bbox_absolute": [
+      1466.615478515625,
+      727.7318420410156,
+      1535.260986328125,
+      1003.546875
+    ],
+    "confidence": 0.04020947590470314,
+    "query": "top view container trailer cluster",
+    "class_id": 39,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.24020947590470315,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "6a0db4b2-f839-49a7-8237-79794677871b",
+    "bbox_absolute": [
+      644.4202575683594,
+      172.77099609375,
+      701.5536499023438,
+      193.0587615966797
+    ],
+    "confidence": 0.040143366903066635,
+    "query": "white box trailer roof",
+    "class_id": 8,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.24014336690306665,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "f234134e-bb16-45bc-8236-f281d9ceb3f6",
+    "bbox_absolute": [
+      -0.14249610900878906,
+      709.8111572265625,
+      39.06473922729492,
+      769.3339233398438
+    ],
+    "confidence": 0.03946108743548393,
+    "query": "white box trailer roof",
+    "class_id": 8,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.23946108743548394,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "5f5025df-2e07-4ce9-af49-ce3572d39458",
+    "bbox_absolute": [
+      1517.7014671564102,
+      961.7843017578125,
+      1551.535472869873,
+      999.73193359375
+    ],
+    "confidence": 0.039371222257614136,
+    "query": "white box trailer roof",
+    "class_id": 8,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.23937122225761415,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "8db07173-2d74-4bdb-91f7-41b4f8867385",
+    "bbox_absolute": [
+      1486.8958740234375,
+      721.0704650878906,
+      1536.3645629882812,
+      759.8763732910156
+    ],
+    "confidence": 0.039008546620607376,
+    "query": "grey trailer roof aerial",
+    "class_id": 27,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.2390085466206074,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "2d09ea63-58f7-4b23-9313-edc2357f4264",
+    "bbox_absolute": [
+      0.24245882034301758,
+      579.8156127929688,
+      28.966724395751953,
+      639.8224487304688
+    ],
+    "confidence": 0.0388823039829731,
+    "query": "white box trailer roof",
+    "class_id": 8,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.2388823039829731,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "b6f6936d-4118-48bd-97d8-7db63b703e0b",
+    "bbox_absolute": [
+      130.65420532226562,
+      760.9830627441406,
+      233.38238525390625,
+      819.4097900390625
+    ],
+    "confidence": 0.03855457529425621,
+    "query": "white box trailer roof",
+    "class_id": 8,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.23855457529425622,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "dab99e19-a27f-4c06-b4e2-75e55e186ad2",
+    "bbox_absolute": [
+      2094.3187561035156,
+      144.36537170410156,
+      2318.8787231445312,
+      181.5080108642578
+    ],
+    "confidence": 0.0383344441652298,
+    "query": "grey trailer roof aerial",
+    "class_id": 27,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.2383344441652298,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "575cd8a0-1a93-456e-bc37-90b1951467b2",
+    "bbox_absolute": [
+      940.026123046875,
+      63.705718994140625,
+      979.3423461914062,
+      85.84021759033203
+    ],
+    "confidence": 0.03794868662953377,
+    "query": "white box trailer roof",
+    "class_id": 8,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.23794868662953378,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "0962c5eb-eb25-443c-bd27-18a4fc7d32a6",
+    "bbox_absolute": [
+      2181.971710205078,
+      6.724634647369385,
+      2315.2146606445312,
+      21.07539176940918
+    ],
+    "confidence": 0.03768843412399292,
+    "query": "grey trailer roof aerial",
+    "class_id": 27,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.23768843412399293,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "1b8fb538-3514-496a-b401-1ed36fa4b6ac",
+    "bbox_absolute": [
+      385.8566150665283,
+      396.4402847290039,
+      541.6521911621094,
+      420.7566833496094
+    ],
+    "confidence": 0.03723561391234398,
+    "query": "trailer bay top\u2011down",
+    "class_id": 56,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.237235613912344,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "fa6f1843-1756-41b3-a464-e1d0c43a8be8",
+    "bbox_absolute": [
+      143.0930938720703,
+      811.529296875,
+      512.1726684570312,
+      831.9110107421875
+    ],
+    "confidence": 0.03721848130226135,
+    "query": "grey trailer roof aerial",
+    "class_id": 27,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.23721848130226136,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "6131d4b6-d13a-451b-8873-e7fb7b393efd",
+    "bbox_absolute": [
+      268.7959289550781,
+      86.3030776977539,
+      310.7277526855469,
+      136.4981231689453
+    ],
+    "confidence": 0.03652949631214142,
+    "query": "white box trailer roof",
+    "class_id": 8,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.23652949631214143,
+    "consensus_count": 1,
+    "image_path": "test_images/images/full/sanbernardino_023607132.png"
+  },
+  {
+    "detection_id": "dc97807f-476d-48d2-8e11-2c9c8c7226e6",
+    "bbox_absolute": [
+      38.69007110595703,
+      1014.78564453125,
+      166.3395538330078,
+      1038.1255493164062
+    ],
+    "confidence": 0.036488015204668045,
+    "query": "white box trailer roof",
+    "class_id": 8,
+    "ensemble_source": "fine_grained",
+    "pass_id": 1,
+    "quality_score": 0.23648801520466806,
     "consensus_count": 1,
     "image_path": "test_images/images/full/sanbernardino_023607132.png"
   }
