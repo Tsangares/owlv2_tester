@@ -53,23 +53,23 @@ class OWLv2TruckAnnotator:
         "dry van trailer satellite view", "reefer trailer roof view",
         "shipping container on chassis", "intermodal container trailer top view",
         "40 foot container trailer aerial", "53 foot trailer top view",
-        "truck trailer parking lot view", "truck trailer at warehouse",
+        "truck trailer at warehouse", "truck trailer loading dock",
         "tractorless semi trailer top down", "cargo trailer from above",
         "long rectangular trailer roof", "freight trailer aerial perspective",
-        "commercial trailer top view", "parking lane trailer aerial",
+        "commercial trailer top view", "warehouse trailer aerial",
         "warehouse docked trailer", "loading bay trailer roof",
-        "parking strip trailer top view", "flat roof trailer satellite",
+        "flat roof trailer satellite", "warehouse strip trailer",
         "grey trailer roof aerial", "silver trailer top down",
         "blue cargo trailer from above", "red container trailer aerial",
         "striped container top view", "bulk trailer roof satellite",
         "yard trailer satellite image", "storage trailer top‑down",
-        "parking row trailers aerial", "grid of trailers top view",
+        "trailer row aerial view", "grid of trailers top view",
         "cargo containers on wheels aerial", "container chassis roof view",
         "top view container trailer cluster", "empty chassis trailer top‑down",
         "semi‑trailer without truck aerial", "trailer queue warehouse",
         "box trailer roof satellite", "roof of cargo trailer",
         "semi dock trailer top view", "fleet of trailers aerial",
-        "colored container trailer cluster", "semi‑trailer parking stalls",
+        "colored container trailer cluster", "semi‑trailer yard stalls",
         "overhead view freight trailer", "commercial box trailer aerial",
         "long cargo box top‑down", "stacked container trailers",
         "top view rigid trailer", "yard spotted trailer",
@@ -82,8 +82,8 @@ class OWLv2TruckAnnotator:
         "bright colored container yard", "rainbow container terminal"
     ]
 
-    # Negative queries to filter out buildings, cars, houses
-    NEGATIVE_QUERIES = ["building", "house", "car"]
+    # Negative queries to filter out buildings, cars, houses, parking spots
+    NEGATIVE_QUERIES = ["building", "house", "car", "parking spot", "parking space", "parking lot", "parking area", "car parking", "vehicle parking"]
 
     # Original fallback queries for backwards compatibility
     ORIGINAL_QUERIES = [
@@ -158,28 +158,51 @@ class OWLv2TruckAnnotator:
         results = self.processor.post_process_object_detection(outs, threshold=thr, target_sizes=sizes)[0]
         dets = []
         for box, score, lbl in zip(results['boxes'], results['scores'], results['labels']):
+            lbl_int = int(lbl)
+            if lbl_int >= len(queries):
+                logger.error(f"Label index {lbl_int} >= queries length {len(queries)}")
+                continue
             x1, y1, x2, y2 = box.cpu().tolist()
             dets.append({
                 'detection_id': str(uuid.uuid4()),
                 'bbox_absolute': [x1, y1, x2, y2],
                 'confidence': float(score.cpu()),
-                'query': queries[int(lbl)],
-                'class_id': int(lbl)
+                'query': queries[lbl_int],
+                'class_id': lbl_int
             })
         return dets
 
     def _enhanced_on_image(self, img: Image.Image) -> List[Dict]:
         # positive vs negative
         pos = self._detect_with_queries(img, self.queries, self.confidence_threshold)
-        neg = self._detect_with_queries(img, self.NEGATIVE_QUERIES, 0.1)
+        neg = self._detect_with_queries(img, self.NEGATIVE_QUERIES, 0.05)  # Lower threshold for negatives
         filtered = []
         for d in pos:
-            if any(self._iou(d['bbox_absolute'], n['bbox_absolute']) > 0.55 for n in neg):
+            # More aggressive negative filtering - check if detection overlaps with parking/negative areas
+            should_filter = False
+            for n in neg:
+                iou = self._iou(d['bbox_absolute'], n['bbox_absolute'])
+                # Use different IoU thresholds based on negative type
+                if 'parking' in n['query'].lower():
+                    if iou > 0.3:  # More aggressive filtering for parking
+                        should_filter = True
+                        break
+                elif iou > 0.55:  # Standard filtering for other negatives
+                    should_filter = True
+                    break
+            
+            if should_filter:
                 continue
+                
+            # Also filter by query content - reject obvious parking spot queries
+            query_lower = d['query'].lower()
+            if any(parking_term in query_lower for parking_term in ['parking', 'stall', 'spot', 'space']):
+                continue
+                
             # Ultra-low thresholds for container/trailer detection
-            if 'container' in d['query'].lower():
+            if 'container' in query_lower:
                 low_thr = 0.02
-            elif 'trailer' in d['query'].lower():
+            elif 'trailer' in query_lower:
                 low_thr = 0.03
             else:
                 low_thr = max(0.04, self.confidence_threshold)
@@ -189,8 +212,8 @@ class OWLv2TruckAnnotator:
 
     def _detect_tiles(self, img: Image.Image, tile: int = 768, stride: int = 512) -> List[Dict]:
         w, h = img.size
+        tile = min(tile, w, h)  
         all_d = []
-        
         # Generate tile positions ensuring full coverage including edges
         x_positions = list(range(0, w - tile + 1, stride))
         y_positions = list(range(0, h - tile + 1, stride))
@@ -244,13 +267,9 @@ class OWLv2TruckAnnotator:
             d['pass_id'] = 2
         all_detections.extend(detections_2)
         
-        # Pass 3: High-quality queries only
+        # Pass 3: High-quality queries only - use only the first 6 queries to avoid index errors
         original_queries = self.queries
-        self.queries = [
-            "shipping container on chassis", "semi trailer top view", 
-            "trailer without tractor top down", "container yard aerial view",
-            "freight trailer aerial perspective", "cargo trailer from above"
-        ]
+        self.queries = self.queries[:6]  # Use first 6 queries only
         detections_3 = self._detect_tiles(img, tile=512, stride=256)
         detections_3 = [d for d in detections_3 if d['confidence'] > 0.05]
         for d in detections_3:
@@ -268,7 +287,7 @@ class OWLv2TruckAnnotator:
         if not detections:
             return []
         
-        # Step 1: Basic size and aspect ratio filtering
+        # Step 1: Basic size and aspect ratio filtering (more lenient for containers/trailers)
         filtered = []
         for d in detections:
             x1, y1, x2, y2 = d['bbox_absolute']
@@ -276,11 +295,24 @@ class OWLv2TruckAnnotator:
             area = width * height
             aspect_ratio = width / height if height > 0 else 0
             
-            # Filter out obvious bad detections
-            if (area < 100 or area > 50000 or  # Too small or too large
-                aspect_ratio < 0.3 or aspect_ratio > 10 or  # Bad aspect ratio
-                width < 10 or height < 10):  # Tiny dimensions
-                continue
+            query_lower = d['query'].lower()
+            is_target = ('container' in query_lower or 'trailer' in query_lower or 
+                       'cargo' in query_lower or 'freight' in query_lower or 
+                       'semi' in query_lower or 'truck' in query_lower)
+            
+            # More lenient filtering for target detections
+            if is_target:
+                # Very lenient for containers/trailers
+                if (area < 50 or area > 100000 or  # Much wider range
+                    aspect_ratio < 0.1 or aspect_ratio > 20 or  # Much wider aspect ratio
+                    width < 5 or height < 5):  # Smaller minimum size
+                    continue
+            else:
+                # Stricter for non-targets (parking spots, cars, etc.)
+                if (area < 200 or area > 30000 or  # Smaller allowed range
+                    aspect_ratio < 0.5 or aspect_ratio > 5 or  # Stricter aspect ratio
+                    width < 15 or height < 15):  # Larger minimum size
+                    continue
                 
             filtered.append(d)
         
@@ -299,7 +331,7 @@ class OWLv2TruckAnnotator:
     
     def _apply_consensus_filter(self, detections: List[Dict]) -> List[Dict]:
         """
-        Boost detections found by multiple ensemble passes.
+        Boost detections found by multiple ensemble passes, but prioritize container/trailer detections.
         """
         # Group nearby detections from different passes
         consensus_groups = []
@@ -321,22 +353,37 @@ class OWLv2TruckAnnotator:
             
             consensus_groups.append(group)
         
-        # Create consensus detections
+        # Create consensus detections with container/trailer priority
         result = []
         for group in consensus_groups:
             if len(group) == 1:
-                # Single detection - keep if high confidence or from reliable source
+                # Single detection - be more lenient for container/trailer queries
                 d = group[0]
-                if (d['confidence'] > 0.1 or 
+                query_lower = d['query'].lower()
+                is_target = ('container' in query_lower or 'trailer' in query_lower or 
+                           'cargo' in query_lower or 'freight' in query_lower or 
+                           'semi' in query_lower or 'truck' in query_lower)
+                
+                if (d['confidence'] > 0.05 or  # Lower threshold for targets
                     d.get('ensemble_source') == 'high_quality' or
-                    'container' in d['query'].lower()):
+                    is_target):
+                    
+                    # Boost quality score for target detections
+                    d['quality_score'] = d['confidence'] + (0.2 if is_target else 0)
+                    d['consensus_count'] = 1
                     result.append(d)
             else:
                 # Multiple detections - create consensus detection
                 best_det = max(group, key=lambda x: x['confidence'])
+                query_lower = best_det['query'].lower()
+                is_target = ('container' in query_lower or 'trailer' in query_lower or 
+                           'cargo' in query_lower or 'freight' in query_lower or 
+                           'semi' in query_lower or 'truck' in query_lower)
+                
                 best_det['quality_score'] = (
-                    best_det['confidence'] * 0.7 + 
-                    len(group) * 0.3 +  # Bonus for consensus
+                    best_det['confidence'] * 0.6 + 
+                    len(group) * 0.2 +  # Consensus bonus
+                    (0.3 if is_target else 0) +  # Large bonus for targets
                     (0.1 if best_det.get('ensemble_source') == 'high_quality' else 0)
                 )
                 best_det['consensus_count'] = len(group)
@@ -381,8 +428,20 @@ class OWLv2TruckAnnotator:
             
             if self.use_ensemble:
                 # Use ensemble detection with smart filtering
-                dets = self._ensemble_detect(img)
-                logger.info(f"GPU {self.gpu_id}: Ensemble detected {len(dets)} high-quality containers/trailers")
+                try:
+                    dets = self._ensemble_detect(img)
+                    logger.info(f"GPU {self.gpu_id}: Ensemble detected {len(dets)} high-quality containers/trailers")
+                except Exception as e:
+                    logger.error(f"GPU {self.gpu_id}: Ensemble error: {e}", exc_info=True)
+                    # Fallback to regular detection but still apply smart filtering
+                    dets = self._detect_tiles(img)
+                    # Add ensemble metadata for fallback
+                    for d in dets:
+                        d['ensemble_source'] = 'fallback'
+                        d['quality_score'] = d['confidence']
+                        d['consensus_count'] = 1
+                    # Apply smart filtering to the fallback results
+                    dets = self._smart_filter_detections(dets)
             elif self.use_enhanced_method:
                 dets = self._detect_tiles(img)
             else:
