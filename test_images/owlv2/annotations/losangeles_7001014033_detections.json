@@ -1,0 +1,210 @@
+[
+  {
+    "detection_id": "9cf85334-5bf3-4290-98a8-fc72f97cb449",
+    "bbox_absolute": [
+      350.490478515625,
+      398.4681396484375,
+      435.0658264160156,
+      433.85003662109375
+    ],
+    "confidence": 0.16438888013362885,
+    "query": "semi\u2011trailer parking stalls",
+    "class_id": 48,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "267fda75-38e5-4d14-99da-64c1186ec35a",
+    "bbox_absolute": [
+      401.02069091796875,
+      863.3101196289062,
+      620.4594116210938,
+      926.0608825683594
+    ],
+    "confidence": 0.1533287912607193,
+    "query": "grid of trailers top view",
+    "class_id": 36,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "6560face-dfdf-4a9b-bb95-4be8b6a8e00c",
+    "bbox_absolute": [
+      703.7697143554688,
+      131.1205291748047,
+      782.3696594238281,
+      211.07208251953125
+    ],
+    "confidence": 0.14017830789089203,
+    "query": "semi\u2011trailer parking stalls",
+    "class_id": 48,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "7af7789d-8b8b-4150-8877-6a82d55564f6",
+    "bbox_absolute": [
+      697.2131958007812,
+      6.212671279907227,
+      783.2127075195312,
+      145.02835083007812
+    ],
+    "confidence": 0.1353665590286255,
+    "query": "trailer queue warehouse",
+    "class_id": 42,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "673263d0-6dd9-447b-9f08-608ff053272a",
+    "bbox_absolute": [
+      507.99385833740234,
+      397.61016845703125,
+      1249.033447265625,
+      432.56427001953125
+    ],
+    "confidence": 0.13508488237857819,
+    "query": "parking strip trailer top view",
+    "class_id": 25,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "b8eece46-7f59-4c40-a8b8-3ba34c02d253",
+    "bbox_absolute": [
+      875.1228332519531,
+      127.85478210449219,
+      921.2211303710938,
+      187.5463104248047
+    ],
+    "confidence": 0.12467307597398758,
+    "query": "semi\u2011trailer parking stalls",
+    "class_id": 48,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "86b4f0c4-923e-478c-82dd-62b506ab7e66",
+    "bbox_absolute": [
+      247.92837524414062,
+      288.987060546875,
+      768.7966918945312,
+      432.4399108886719
+    ],
+    "confidence": 0.12300493568181992,
+    "query": "parking strip trailer top view",
+    "class_id": 25,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "a8ce7f49-f283-44b0-9369-231bc951e680",
+    "bbox_absolute": [
+      920.4337768554688,
+      82.74292755126953,
+      954.4457092285156,
+      109.83199310302734
+    ],
+    "confidence": 0.12256810069084167,
+    "query": "roof of cargo trailer",
+    "class_id": 44,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "566005ed-a390-41bd-b5db-14db314c9dbe",
+    "bbox_absolute": [
+      739.9290771484375,
+      130.20823669433594,
+      768.077392578125,
+      212.17312622070312
+    ],
+    "confidence": 0.12243523448705673,
+    "query": "semi\u2011trailer parking stalls",
+    "class_id": 48,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "72c46bfe-764d-48e8-bf07-a9d86899829b",
+    "bbox_absolute": [
+      437.3852233886719,
+      982.035400390625,
+      624.5352172851562,
+      1050.2618408203125
+    ],
+    "confidence": 0.11903230100870132,
+    "query": "semi\u2011trailer parking stalls",
+    "class_id": 48,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "1a1b32e9-a6ba-4943-bd72-6e94a9642870",
+    "bbox_absolute": [
+      330.48419189453125,
+      951.36181640625,
+      628.2230834960938,
+      1049.824951171875
+    ],
+    "confidence": 0.1138349398970604,
+    "query": "semi\u2011trailer parking stalls",
+    "class_id": 48,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "8c26bea7-c820-45df-a9a9-339dbbaaffb6",
+    "bbox_absolute": [
+      996.129638671875,
+      21.679176330566406,
+      1025.5715942382812,
+      43.86760330200195
+    ],
+    "confidence": 0.11372345685958862,
+    "query": "white box trailer roof",
+    "class_id": 8,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "dec36395-9222-403e-a0ec-715bfd30e109",
+    "bbox_absolute": [
+      741.93408203125,
+      7.385061264038086,
+      767.00341796875,
+      126.89298248291016
+    ],
+    "confidence": 0.11019345372915268,
+    "query": "semi\u2011trailer parking stalls",
+    "class_id": 48,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "582b1ce6-0c83-4afc-ad2b-5dd4cd2daecb",
+    "bbox_absolute": [
+      519.0326461791992,
+      264.74493408203125,
+      1277.68359375,
+      403.679443359375
+    ],
+    "confidence": 0.10771003365516663,
+    "query": "parking strip trailer top view",
+    "class_id": 25,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "58bc2107-9b56-4ff9-a92e-826290779c44",
+    "bbox_absolute": [
+      594.2652206420898,
+      5.95836067199707,
+      702.871826171875,
+      143.18893432617188
+    ],
+    "confidence": 0.10394943505525589,
+    "query": "detached semi trailer",
+    "class_id": 2,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  },
+  {
+    "detection_id": "934e4fc4-8cba-4d14-b4e5-bd3e58493886",
+    "bbox_absolute": [
+      637.9621200561523,
+      9.354480743408203,
+      678.3689575195312,
+      140.82362365722656
+    ],
+    "confidence": 0.10036338865756989,
+    "query": "semi\u2011trailer parking stalls",
+    "class_id": 48,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_7001014033.png"
+  }
+]

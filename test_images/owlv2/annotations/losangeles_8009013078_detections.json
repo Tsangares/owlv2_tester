@@ -1,0 +1,223 @@
+[
+  {
+    "detection_id": "9601a6cb-b36e-432c-8003-104a88cb7097",
+    "bbox_absolute": [
+      931.8452758789062,
+      485.478759765625,
+      1117.7896118164062,
+      524.1502685546875
+    ],
+    "confidence": 0.2784208357334137,
+    "query": "parking lane trailer aerial",
+    "class_id": 22,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "1b639ed6-88dc-49b4-b728-7065d336c72d",
+    "bbox_absolute": [
+      927.0693969726562,
+      628.6631774902344,
+      1111.9173583984375,
+      668.7143859863281
+    ],
+    "confidence": 0.27595436573028564,
+    "query": "semi trailer alignment aerial",
+    "class_id": 55,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "576c3e78-f6a8-42d5-b590-116c607fe61f",
+    "bbox_absolute": [
+      933.4783935546875,
+      578.2083740234375,
+      1115.0016479492188,
+      617.550048828125
+    ],
+    "confidence": 0.23585423827171326,
+    "query": "semi\u2011trailer aerial",
+    "class_id": 1,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "69189f5e-cd47-4316-bf86-2e0b484425a6",
+    "bbox_absolute": [
+      922.5584716796875,
+      469.9895324707031,
+      1119.2000122070312,
+      767.23681640625
+    ],
+    "confidence": 0.22436271607875824,
+    "query": "grid of trailers top view",
+    "class_id": 36,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "1741e87a-0558-4e66-adc8-11c7ce1ebe5e",
+    "bbox_absolute": [
+      953.9213256835938,
+      757.4263763427734,
+      1066.8829345703125,
+      796.2786254882812
+    ],
+    "confidence": 0.2128261923789978,
+    "query": "semi\u2011trailer aerial",
+    "class_id": 1,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "51e52611-2317-4047-bb0a-f6a82bebd6eb",
+    "bbox_absolute": [
+      930.8439636230469,
+      721.3185119628906,
+      1034.9058227539062,
+      758.1871948242188
+    ],
+    "confidence": 0.19175449013710022,
+    "query": "semi\u2011trailer aerial",
+    "class_id": 1,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "59046bce-8059-4f15-9641-40aa0513f77a",
+    "bbox_absolute": [
+      933.9097900390625,
+      721.9994201660156,
+      1074.725830078125,
+      795.8001403808594
+    ],
+    "confidence": 0.18871371448040009,
+    "query": "semi trailer alignment aerial",
+    "class_id": 55,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "7be0cae7-1295-4d1a-ac29-d69dc7aa3f87",
+    "bbox_absolute": [
+      507.88946533203125,
+      68.00200653076172,
+      1031.2886962890625,
+      111.29610443115234
+    ],
+    "confidence": 0.18324507772922516,
+    "query": "parking strip trailer top view",
+    "class_id": 25,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "7fd7c02c-88ae-4327-8212-a724dc6744c3",
+    "bbox_absolute": [
+      929.0242919921875,
+      815.8698425292969,
+      1114.1240844726562,
+      875.0403442382812
+    ],
+    "confidence": 0.13783255219459534,
+    "query": "parking strip trailer top view",
+    "class_id": 25,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "14d6c4a1-7631-4343-a611-60c0e696f3e1",
+    "bbox_absolute": [
+      922.0924682617188,
+      447.5267028808594,
+      1143.9210815429688,
+      597.0888061523438
+    ],
+    "confidence": 0.1337175965309143,
+    "query": "semi dock trailer top view",
+    "class_id": 45,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "73b883cf-7913-4f87-8419-863cd1d484dc",
+    "bbox_absolute": [
+      1086.7864990234375,
+      1480.4719848632812,
+      1167.5108642578125,
+      1539.9600219726562
+    ],
+    "confidence": 0.13135741651058197,
+    "query": "silver trailer top down",
+    "class_id": 28,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "cabdf820-8404-4069-934d-b9944df82464",
+    "bbox_absolute": [
+      916.8568725585938,
+      346.7662048339844,
+      1203.8727416992188,
+      454.8904724121094
+    ],
+    "confidence": 0.13127996027469635,
+    "query": "parking strip trailer top view",
+    "class_id": 25,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "d5a5a828-7b87-40fa-843a-23461ec85c08",
+    "bbox_absolute": [
+      520.8603134155273,
+      1640.6704711914062,
+      1056.87158203125,
+      1708.919921875
+    ],
+    "confidence": 0.11265446245670319,
+    "query": "parking strip trailer top view",
+    "class_id": 25,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "8e872206-fa18-4f05-a718-8017e9e554d0",
+    "bbox_absolute": [
+      920.3025817871094,
+      1301.1393432617188,
+      1047.0313720703125,
+      1392.913818359375
+    ],
+    "confidence": 0.1126527413725853,
+    "query": "semi\u2011trailer parking stalls",
+    "class_id": 48,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "6f7b58cc-bc05-4290-9a27-72f190d66587",
+    "bbox_absolute": [
+      3.4826431274414062,
+      1622.9242553710938,
+      759.5816650390625,
+      1649.1265869140625
+    ],
+    "confidence": 0.10761371999979019,
+    "query": "container chassis roof view",
+    "class_id": 38,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "55394dcf-529f-4f49-91f7-ebf74d771536",
+    "bbox_absolute": [
+      926.8705749511719,
+      876.5564270019531,
+      1109.2572021484375,
+      902.1658325195312
+    ],
+    "confidence": 0.10640308260917664,
+    "query": "semi trailer alignment aerial",
+    "class_id": 55,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_8009013078.png"
+  },
+  {
+    "detection_id": "6e8aefb6-f6c9-4490-988e-9f627d5be077",
+    "bbox_absolute": [
+      1034.571044921875,
+      1.8595075607299805,
+      1241.964111328125,
+      71.59233093261719
+    ],
+    "confidence": 0.10015638172626495,
+    "query": "grey trailer roof aerial",
+    "class_id": 27,
+    "image_path": "src/stage1_tester/test_images/images/full/losangeles_8009013078.png"
+  }
+]
